@@ -1,5 +1,4 @@
-
-[![Join the chat at https://gitter.im/wako-app/community](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wako-app/community)
+[![Join the chat on telegram](https://img.shields.io/badge/join%20the%20chat-on%20telegram-0088cc.svg)](http://t.me/wakotv)
 
 The description has been moved to the official website: https://wako.app/.
 
