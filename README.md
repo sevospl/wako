@@ -1,5 +1,7 @@
-[![Join the chat on telegram](https://img.shields.io/badge/join%20the%20chat-on%20telegram-0088cc.svg)](http://t.me/wakotv)
+[![Join the chat on discord](https://img.shields.io/badge/join%20the%20chat-on%20discord-0088cc.svg)](https://discord.gg/Xf7Qnp3)
 
-The description has been moved to the official website: https://wako.app/.
+Official website: https://wako.app
 
-You can download the app in [google play store](https://play.google.com/store/apps/details?id=app.wako)
+Available on:
+- [Google Play Store](https://play.google.com/store/apps/details?id=app.wako) 
+- [Apple Store](https://itunes.apple.com/fr/app/wako-tv/id1456393880?l=en&mt=8)
