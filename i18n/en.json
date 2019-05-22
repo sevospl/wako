@@ -1,0 +1,218 @@
+{
+  "pages": {
+    "intro": {
+      "title": "Introduction",
+      "skip": "SKIP",
+      "slide1": {
+        "title": "Welcome to wako",
+        "watchDemo": "Watch Demo"
+      },
+      "slide2": {
+        "text1": "Track every TV show & movie you watch with",
+        "text2": "Be notified on new episodes",
+        "text3.1": "Control your favorite media player",
+        "text3.2": "with the built-in remote control",
+        "text4": "Watch on"
+      },
+      "slide3": {
+        "title": "What is Trakt.tv?",
+        "text": "is a platform that does many things, but primarily keeps track of TV shows and movies you watch. It integrates with media centers (like Kodi) to enable scrobbling, so everything is automatic. Discover new shows and movies, follow people with similar tastes and voice your opinion by using the Trakt.tv website"
+      },
+      "slide4": {
+        "title": "What is Kodi?",
+        "text1.1": "Kodi is a free and open source media center for playing videos, music, pictures, games, and more. Kodi runs on  Linux, OS&nbsp;X, Windows, iOS, and Android.",
+        "text1.2": "Learn more and install from Kodi’s website."
+      },
+      "slide5": {
+        "text": "Be aware of the next episodes to watch"
+      },
+      "slide6": {
+        "text1.1": "Add the movie to your watch list",
+        "text1.2": "mark it as watched",
+        "text1.3": "or watch it on"
+      },
+      "slide7": {
+        "text": "remote control"
+      },
+      "slide8": {
+        "title": "Ready?",
+        "button": "Connect wako to Kodi"
+      }
+    },
+    "home": {
+      "upNextToWatch": "Up Next To Watch",
+      "retry": "Retry",
+      "upToDate": "Nothing to watch, you're up to date :)"
+    },
+    "login": {
+      "message": "Sign in or Sign up with Trakt to view your Movies/TV Shows"
+    },
+    "media": {
+      "shared": {
+        "detail": {
+          "imdbRating": "IMDb Rating:",
+          "viewOnIMDb": "View on IMDb",
+          "overview": "Overview",
+          "related": "More like this",
+          "sources": "Sources"
+        },
+        "search-list": {
+          "explore": "Explore",
+          "toWatch": "To watch",
+          "watched": "Watched",
+          "by": "by",
+          "mostDailyPlayed": "Most Daily Played",
+          "trending": "Trending",
+          "popular": "Popular",
+          "collection": "Collection",
+          "recommendations": "Recommendations"
+        },
+        "pop-over": {
+          "explore": "Explore",
+          "hideWatched": "Hide Watched",
+          "pickList": "Pick a list",
+          "filters": "Filters",
+          "manualSearch": "Search Source Manually"
+        }
+      }
+    },
+    "movie": {
+      "search-list": {
+        "search": "Search a Movie"
+      },
+      "filter": {
+        "title": "Filters",
+        "rating": "Rating",
+        "genre": "Genre",
+        "certification": "Certification",
+        "year": "Year",
+        "apply": "Apply",
+        "reset": "Reset"
+      }
+    },
+    "show": {
+      "search-list": {
+        "search": "Search a TV Show",
+        "myTvShows": "My TV Shows"
+      },
+      "season-detail": {
+        "seasons": "Seasons"
+      },
+      "episode-detail": {
+        "viewShow": "View Show"
+      }
+    }
+  },
+  "modals": {
+    "app-contribution": {
+      "title": "Contribution",
+      "text": "wako is free to use and doesn't contain any ads. <br />It takes a lot of work to make the app better and better. <br />If you really enjoy wako, you can contribute to it by subscribing to the product bellow <br /><br />Thank you."
+    },
+    "app-outdated": {
+      "text": "Your app is outdated, you have to update it to continue"
+    },
+    "kodi-remote-control": {
+      "title": "Kodi Remote Control",
+      "host": "Host",
+      "noHost.message": "No hosts have been added yet.",
+      "noHost.add": "Add one",
+      "hostUnreachable": "Host {{hostName}} is unreachable.",
+      "tryReconnect": "Try to reconnect"
+    },
+    "list-picker": {
+      "title": "Pick a list",
+      "sort": {
+        "label": "Media will be sorted by",
+        "options": {
+          "rank": "Rank",
+          "recentlyAdded": "Recently Added",
+          "releasedDate": "Release Date"
+        }
+      },
+      "myLists": "My Lists",
+      "myLikedLists": "My Liked Lists",
+      "trendingLists": "Trending Lists",
+      "popularLists": "Popular Lists",
+      "likes": "likes",
+      "by": "by"
+    },
+    "search-manual": {
+      "search": "Search a Source",
+      "category": "Category",
+      "categoryOptions": {
+        "movies": "Movie",
+        "tv": "TV Show",
+        "anime": "Anime"
+      }
+    }
+  },
+  "shared": {
+    "noResult": "No result",
+    "cancel": "Annuler",
+    "sign-in": {
+      "button": "Sign in or Sign up with Trakt"
+    },
+    "play-kodi": {
+      "button": "Play on Kodi",
+      "searchingSources": "Searching sources"
+    },
+    "misc": {
+      "aired": "Aired",
+      "airs": "Airs"
+    }
+  },
+  "toasts": {
+    "movie": {
+      "markAsWatched": "Marked {{movieTitle}} as watched",
+      "markAsUnwatched": "Marked {{movieTitle}} as unwatched",
+      "addedToWatchlist": "Added {{movieTitle}} to your Watch List",
+      "removedFromWatchlist": "Removed {{movieTitle}} from your Watch List",
+      "noRandomMovieFound": "No movie found for genres: {{genreList}}",
+      "notFoundOnTrakt": "Movie not found on trakt"
+    },
+    "show": {
+      "removedFromWatchlist": "Removed {{showTitle}} from your Watch List",
+      "notFoundOnTrakt": "Show not found on trakt"
+    },
+    "season": {
+      "markAsWatched": "Marked {{showTitle}} season {{seasonNumber}} as watched",
+      "markAsUnwatched": "Marked {{showTitle}} season {{seasonNumber}} as unwatched"
+    },
+    "episode": {
+      "markAsWatched": "Marked {{showTitle}} {{episodeCode}} as watched",
+      "markAsUnwatched": "Marked {{showTitle}} {{episodeCode}} as unwatched"
+    },
+    "elementumNotInstalled": "Elementum Add-on needs to be installed to continue",
+    "kodi-remote-contro": {
+      "warningWebsocket": "Warning - you are not connected to kodi throught websocket service"
+    },
+    "app": {
+      "traktApiIssue1": "Trakt API - Failed to load resource, please try again later (error code {{errorStatus}})",
+      "traktApiServerOverloaded": "Trakt API - Server is overloaded. Please try again in 30s",
+      "newVersionAvailable": "A new version of wako is available"
+    },
+    "settings": {
+      "cacheCleared": "Cache cleared"
+    },
+    "kodi": {
+      "noHost": "No host set for kodi",
+      "hostUnreachable": "Ouch, your kodi host {{hostNmae}} is unreachable",
+      "noSupportedPluginsInstalled": "Ouch, None of the supported plugins are installed, please install at least one of them",
+      "failedToPlay": "Failed to play",
+      "startDownloading": "Start downloading {{title}} on {{hostName}}",
+      "play": "Play on {{hostName}} using {{pluginName}}"
+    }
+  },
+  "alerts": {
+    "okButton": "Ok",
+    "cancelButton": "Cancel",
+    "app-contribution": {
+      "thanksMessage": "Thanks for contributing to wako."
+    },
+    "movie": {
+      "random": {
+        "header": "Get a random movie for genres:"
+      }
+    }
+  }
+}

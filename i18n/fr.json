@@ -1,0 +1,214 @@
+{
+  "pages": {
+    "intro": {
+      "title": "Introduction",
+      "skip": "PASSER",
+      "slide1": {
+        "title": "Bienvenue sur wako",
+        "watchDemo": "Voir la Demo"
+      },
+      "slide2": {
+        "text1": "Suivez séries et film que vous regardez avec",
+        "text2": "Etre averti des nouveaux épisodes",
+        "text3.1": "Contrôlez votre media center préféré",
+        "text3.2": "avec la télécommande intégrée",
+        "text4": "Regardez sur"
+      },
+      "slide3": {
+        "title": "Qu'est-ce que Trakt.tv ?",
+        "text": "est une plateforme qui fait beaucoup de choses, mais qui garde surtout une trace des séries et des films que tu regardes. Découvrez de nouvelles séries et de nouveaux films, suivez des gens aux goûts similaires et donnez votre avis en utilisant le site Trakt.tv."
+      },
+      "slide4": {
+        "title": "Qu'est-ce que Kodi ?",
+        "text1.1": "Kodi est un media center gratuit et open source pour lire des vidéos, de la musique, des photos, des jeux et plus encore. Kodi fonctionne sous Linux, OS X, Windows, iOS et Android.",
+        "text1.2": "Pour en savoir plus et l'installer, consultez le site Web de Kodi."
+      },
+      "slide5": {
+        "text": "Soyez au courant des prochains épisodes à regarder"
+      },
+      "slide6": {
+        "text1.1": "Ajouter le film à votre \"watch list\"",
+        "text1.2": "marquer comme vue",
+        "text1.3": "ou regardez-le sur"
+      },
+      "slide7": {
+        "text": "télécommande"
+      },
+      "slide8": {
+        "title": "Prêt ?",
+        "button": "Connecter wako à Kodi"
+      }
+    },
+    "home": {
+      "upNextToWatch": "À Regarder",
+      "retry": "Réessayer",
+      "upToDate": "Rien à regarder, t'es à jour :)"
+    },
+    "login": {
+      "message": "Connectez-vous ou Inscrivez-vous avec Trakt pour visionner vos films/séries TV"
+    },
+    "media": {
+      "shared": {
+        "detail": {
+          "imdbRating": "Note IMDb :",
+          "viewOnIMDb": "Voir sur IMDb",
+          "overview": "Résumé",
+          "related": "Similaire",
+          "sources": "Sources"
+        },
+        "search-list": {
+          "explore": "Explorer",
+          "toWatch": "À Voir",
+          "watched": "Vus",
+          "by": "par",
+          "mostDailyPlayed": "Les plus joués par jour",
+          "trending": "Tendance",
+          "popular": "Populaire",
+          "collection": "Collection",
+          "recommendations": "Recommendations"
+        },
+        "pop-over": {
+          "explore": "Explorer",
+          "hideWatched": "Masquer les vus",
+          "pickList": "Choisir une liste",
+          "filters": "Filtres",
+          "manualSearch": "Chercher une source"
+        }
+      }
+    },
+    "movie": {
+      "search-list": {
+        "search": "Rechercher un film"
+      },
+      "filter": {
+        "title": "Filtres",
+        "rating": "Note",
+        "genre": "Genre",
+        "certification": "Classement",
+        "year": "Année",
+        "apply": "Appliquer",
+        "reset": "Réinitialiser"
+      }
+    },
+    "show": {
+      "search-list": {
+        "search": "Rechercher une série",
+        "myTvShows": "Mes Séries"
+      },
+      "season-detail": {
+        "seasons": "Saisons"
+      },
+      "episode-detail": {
+        "viewShow": "Voir la série"
+      }
+    }
+  },
+  "modals": {
+    "app-contribution": {
+      "title": "Contribution",
+      "text": "wako est gratuit et ne contient aucune publicité.<br />Cela prend beaucoup de temps pour rendre l'appliction de mieux en mieux.<br />Si vous aimez vraiment wako, vous pouvez y contribuer en vous abonnant au produit ci-dessous <br /><br />Merci."
+    },
+    "app-outdated": {
+      "text": "Votre application n'est plus à jour. Veuillez la mettre à jour pour continuer à l'utiliser"
+    },
+    "kodi-remote-control": {
+      "title": "Kodi Télécommande",
+      "host": "Hôte",
+      "noHost.message": "Aucun hôte n'a encore été ajouté.",
+      "noHost.add": "Ajouter un hôte",
+      "hostUnreachable": "Impossible de se connecter à {{hostName}}",
+      "tryReconnect": "Se Reconnecter"
+    },
+    "list-picker": {
+      "title": "Choisissez une liste",
+      "sort": {
+        "label": "Trier les médias par",
+        "options": {
+          "rank": "Rang",
+          "recentlyAdded": "Récemment ajouté",
+          "releasedDate": "Date de sortie"
+        }
+      },
+      "myLists": "Mes Listes",
+      "myLikedLists": "Mes Listes Aimées",
+      "trendingLists": "Listes Tendances",
+      "popularLists": "Listes Populaires",
+      "likes": "likes",
+      "by": "par"
+    },
+    "search-manual": {
+      "search": "Rechercher une source",
+      "category": "Catégorie",
+      "categoryOptions": {
+        "movies": "Film",
+        "tv": "Série",
+        "anime": "Anime"
+      }
+    }
+  },
+  "shared": {
+    "noResult": "Aucun résultat",
+    "cancel": "Annuler",
+    "sign-in": {
+      "button": "Connectez-vous avec Trakt"
+    },
+    "play-kodi": {
+      "button": "Regarder sur Kodi",
+      "searchingSources": "Recherche de sources"
+    },
+    "misc": {
+      "aired": "Diffusé le",
+      "airs": "Sort le"
+    }
+  },
+  "toast": {
+    "movie": {
+      "markAsWatched": "Marked {{movieTitle}} a été marqué comme vu",
+      "markAsUnwatched": "Marked {{movieTitle}} a été marqué comme non vu",
+      "addedToWatchlist": "{{movieTitle}} a été ajouté à votre Watch List",
+      "removedFromWatchlist": "{{movieTitle}} a été retiré de votre Watch List",
+      "noRandomMovieFound": "Aucun film trouvé pour les genres : {{genreList}}"
+    },
+    "show": {
+      "removedFromWatchlist": "{{showTitle}} a été retiré de votre Watch List"
+    },
+    "season": {
+      "markAsWatched": "{{showTitle}} saison {{seasonNumber}} a été marqué comme vue",
+      "markAsUnwatched": "{{showTitle}} saison {{seasonNumber}} a été marqué comme non vue"
+    },
+    "episode": {
+      "markAsWatched": "{{showTitle}} {{episodeCode}} a été marqué comme vu",
+      "markAsUnwatched": "{{showTitle}} {{episodeCode}} a été marqué comme non vu"
+    },
+    "elementumNotInstalled": "Elementum Add-on doit être installé pour continuer",
+    "kodi-remote-contro": {
+      "warningWebsocket": "Attention - vous n'êtes pas connecté à kodi via webocket"
+    },
+    "app": {
+      "traktApiIssue1": "API Trakt - Impossible de charger la ressource, veuillez réessayer plus tard. (code d'erreur {{errorStatus}})",
+      "traktApiServerOverloaded": "API Trakt - Le serveur est surchargé. Veuillez réessayer dans 30 secondes.",
+      "newVersionAvailable": "Une nouvelle version de wako est disponible"
+    },
+    "settings": {
+      "cacheCleared": "Cache Supprimé"
+    },
+    "kodi": {
+      "noHost": "Aucun hôte définit pour kodi",
+      "hostUnreachable": "Aïe, votre hôte kodi {{hostNmae}} est injoignable",
+      "noSupportedPluginsInstalled": "Aïe, aucun des plugins supportés n'est installé, veuillez en installer au moins un.",
+      "failedToPlay": "N'a pas réussi à jouer",
+      "startDownloading": "Le téléchargement de {{title}} à commencé sur {{hostName}}",
+      "play": "Lecture sur {{hostName}} via {{pluginName}}"
+    }
+  },
+  "alerts": {
+    "app-contribution": {
+      "thanksMessage": "Merci de contribuer wako."
+    },
+    "movie": {
+      "random": {
+        "header": "Get a random movie for genres:"
+      }
+    }
+  }
+}
