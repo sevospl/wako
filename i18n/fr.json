@@ -11,8 +11,7 @@
         "text1": "Suivez séries et film que vous regardez avec",
         "text2": "Etre averti des nouveaux épisodes",
         "text3.1": "Contrôlez votre media center préféré",
-        "text3.2": "avec la télécommande intégrée",
-        "text4": "Regardez sur"
+        "text3.2": "avec la télécommande intégrée"
       },
       "slide3": {
         "title": "Qu'est-ce que Trakt.tv ?",
@@ -28,8 +27,7 @@
       },
       "slide6": {
         "text1.1": "Ajouter le film à votre \"watch list\"",
-        "text1.2": "marquer comme vue",
-        "text1.3": "ou regardez-le sur"
+        "text1.2": "marquer comme vue"
       },
       "slide7": {
         "text": "télécommande"
@@ -101,6 +99,101 @@
       "episode-detail": {
         "viewShow": "Voir la série"
       }
+    },
+    "settings": {
+      "title": "Réglages",
+      "list": {
+        "contribution": {
+          "header": "Contribution",
+          "item": "Contribuer"
+        },
+        "kodi": {
+          "item": "Configurer les hôtes",
+          "plugins": "Configurer le bouton \"Ouvrir\""
+        },
+        "provider": {
+          "header": "Providers",
+          "item": "Configurer les providers"
+        },
+        "notification": {
+          "header": "Notifications",
+          "itemEnableTvShows": "Activer les notifications des séries TV",
+          "itemOnlyNewEpisodeOnUpToDateShows": "Etre averti uniquement pour mes prochains épisodes à regarder"
+        },
+        "trakt": {
+          "totalWatchedMovies": "Nombre de films regardés",
+          "totalWatchedEpisodes": "Nombre d'épisodes regardés",
+          "apiStatus": "Statut de l'API Trakt",
+          "logout": "Déconnexion",
+          "signIn": "Connectez-vous ou Inscrivez-vous à Trakt"
+        },
+        "application": {
+          "header": "Application",
+          "lang": "Langue",
+          "review": "Noter l'application",
+          "share": "Partager l'application",
+          "documentation": "Documentation",
+          "joinDiscord": "Rejoignez-nous sur Discord",
+          "joinTelegram": "Rejoignez-nous sur Telegram",
+          "support": "Support",
+          "clearCache": "Effacer le cache",
+          "privacyPolicy": "Politique de confidentialité",
+          "appVersion": "App Version"
+        }
+      }
+    },
+    "kodi-detection": {
+      "title": "Détection Kodi",
+      "skip": "Passer",
+      "cardContent": "Les hôtes Kodi sont maintenant recherchés sur votre réseau.<br />Sélectionnez un hôte dans la liste pour l'ajouter ou appuyez sur le bouton \"PASSER\" pour l'ajouter manuellement.",
+      "detectedHosts": "Hôtes détectés",
+      "detectHostHelper": "Aucun hôte n'a pas encore été trouvé (cela peut prendre quelques secondes). N'oubliez pas de démarrer Kodi<br><em>>La détection automatique fonctionne en utilisant Zeroconf. S'il ne détecte pas votre Kodi, essayez d'activer Zeroconf dans Kodi en allant dans <b>Settings > Services > General and enable \"Announce services to other systems\"</b></em>."
+    },
+    "kodi-remote-list": {
+      "title": "Kodi Hôtes",
+      "savedHosts": "Hôtes enregistrés",
+      "noHostsAdded": "Aucun hôte n'a encore été ajouté",
+      "defaultHost": "Hôte par défaut"
+    },
+    "kodi-settings": {
+      "title": "Configuration de l'hôte Kodi",
+      "form": {
+        "name": "Nom",
+        "ip": "Hostname/IP address",
+        "port": "Port",
+        "advanced": "Paramètres avancés",
+        "login": "Login (optional)",
+        "password": "Password (optional)",
+        "rpcPor": "JSON RPC port (optional)",
+        "status": "État de la connexion :",
+        "save": "Enregister",
+        "delete": "Supprimer"
+      }
+    },
+    "kodi-open-button": {
+      "title": "Bouton Ouvrir",
+      "list": {
+        "header": "Configuration",
+        "pluginsUrl": "Plugins URL:",
+        "noUrl": "aucune"
+      },
+      "pluginList": {
+        "header": "Plugins"
+      }
+    },
+    "providers": {
+      "title": "Providers",
+      "list": {
+        "header": "Configuration",
+        "providersUrl": "Providers URL:",
+        "noUrl": "aucune"
+      },
+      "enabledSource": {
+        "header": "Source activée"
+      },
+      "providerList": {
+        "header": "Providers"
+      }
     }
   },
   "modals": {
@@ -152,8 +245,8 @@
     "sign-in": {
       "button": "Connectez-vous avec Trakt"
     },
-    "play-kodi": {
-      "button": "Regarder sur Kodi",
+    "open-kodi": {
+      "button": "Ouvrir sur Kodi",
       "searchingSources": "Recherche de sources"
     },
     "misc": {
@@ -167,10 +260,12 @@
       "markAsUnwatched": "Marked {{movieTitle}} a été marqué comme non vu",
       "addedToWatchlist": "{{movieTitle}} a été ajouté à votre Watch List",
       "removedFromWatchlist": "{{movieTitle}} a été retiré de votre Watch List",
-      "noRandomMovieFound": "Aucun film trouvé pour les genres : {{genreList}}"
+      "noRandomMovieFound": "Aucun film trouvé pour les genres : {{genreList}}",
+      "notFoundOnTrakt": "Film non trouvé sur trakt"
     },
     "show": {
-      "removedFromWatchlist": "{{showTitle}} a été retiré de votre Watch List"
+      "removedFromWatchlist": "{{showTitle}} a été retiré de votre Watch List",
+      "notFoundOnTrakt": "Série non trouvée sur trakt"
     },
     "season": {
       "markAsWatched": "{{showTitle}} saison {{seasonNumber}} a été marqué comme vue",
@@ -187,7 +282,8 @@
     "app": {
       "traktApiIssue1": "API Trakt - Impossible de charger la ressource, veuillez réessayer plus tard. (code d'erreur {{errorStatus}})",
       "traktApiServerOverloaded": "API Trakt - Le serveur est surchargé. Veuillez réessayer dans 30 secondes.",
-      "newVersionAvailable": "Une nouvelle version de wako est disponible"
+      "newVersionAvailable": "Une nouvelle version de wako est disponible",
+      "updateInstalled": "wako a été mis à jour. Relancez l'application pour en profiter"
     },
     "settings": {
       "cacheCleared": "Cache Supprimé"
@@ -196,19 +292,27 @@
       "noHost": "Aucun hôte définit pour kodi",
       "hostUnreachable": "Aïe, votre hôte kodi {{hostNmae}} est injoignable",
       "noSupportedPluginsInstalled": "Aïe, aucun des plugins supportés n'est installé, veuillez en installer au moins un.",
-      "failedToPlay": "N'a pas réussi à jouer",
-      "startDownloading": "Le téléchargement de {{title}} à commencé sur {{hostName}}",
-      "play": "Lecture sur {{hostName}} via {{pluginName}}"
-    }
+      "failedToOpen": "N'a pas réussi à ouvrir",
+      "startOpening": "Lancement de {{title}} sur {{hostName}}",
+      "open": "Lecture sur {{hostName}} via {{pluginName}}"
+    },
+    "pluginsUpdated": "Plugins have been updated"
   },
   "alerts": {
+    "okButton": "Ok",
+    "cancelButton": "Cancel",
     "app-contribution": {
       "thanksMessage": "Merci de contribuer wako."
     },
     "movie": {
       "random": {
-        "header": "Get a random movie for genres:"
+        "header": "Trouvez un film aléatoire pour les genres :"
       }
+    }
+  },
+  "actionSheets": {
+    "kodi": {
+      "openTitle": "Ouvrir sur Kodi via..."
     }
   }
 }
