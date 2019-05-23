@@ -296,7 +296,8 @@
       "startOpening": "Lancement de {{title}} sur {{hostName}}",
       "open": "Lecture sur {{hostName}} via {{pluginName}}"
     },
-    "pluginsUpdated": "Plugins have been updated"
+    "pluginsUpdated": "Les plugins ont été mis à jour",
+    "providersUpdated": "Les Providers ont été mis à jour"
   },
   "alerts": {
     "okButton": "Ok",

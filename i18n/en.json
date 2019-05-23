@@ -296,7 +296,8 @@
       "startOpening": "Opening {{title}} on {{hostName}}",
       "open": "Open on {{hostName}} using {{pluginName}}"
     },
-    "pluginsUpdated": "Plugins have been updated"
+    "pluginsUpdated": "Plugins have been updated",
+    "providersUpdated": "Providers have been updated"
   },
   "alerts": {
     "okButton": "Ok",
