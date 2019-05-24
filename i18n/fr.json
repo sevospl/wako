@@ -38,6 +38,7 @@
       }
     },
     "home": {
+      "hi": "Salut",
       "upNextToWatch": "À Regarder",
       "retry": "Réessayer",
       "upToDate": "Rien à regarder, t'es à jour :)"

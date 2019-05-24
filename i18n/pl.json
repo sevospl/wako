@@ -38,6 +38,7 @@
       }
     },
     "home": {
+      "hi": "Cześć",
       "upNextToWatch": "Następne do obejrzenia",
       "retry": "Spróbuj ponownie",
       "upToDate": "Nie masz nic do oglądania, jesteś na bieżąco ;)"
@@ -55,8 +56,8 @@
           "sources": "Źródła"
         },
         "search-list": {
-          "explore": "Lista",
-          "toWatch": "Do obejrzenia",
+          "explore": "Odkryj",
+          "toWatch": "Zapisane",
           "watched": "Obejrzane",
           "by": "przez",
           "mostDailyPlayed": "Najczęściej odtwarzane",
@@ -66,7 +67,7 @@
           "recommendations": "Polecane"
         },
         "pop-over": {
-          "explore": "Lista",
+          "explore": "Odkryj",
           "hideWatched": "Ukryj obejrzane",
           "pickList": "Wybierz listę",
           "filters": "Filtry",
