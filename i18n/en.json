@@ -166,7 +166,7 @@
         "advanced": "Advanced settings",
         "login": "Login (optional)",
         "password": "Password (optional)",
-        "rpcPor": "JSON RPC port (optional)",
+        "rpcPort": "JSON RPC port (optional)",
         "status": "Connection status:",
         "save": "Save Host",
         "delete": "Delete Host"

@@ -166,7 +166,7 @@
         "advanced": "Ustawienia zaawansowane",
         "login": "Login (opcjonalnie)",
         "password": "Hasło (opcjonalnie)",
-        "rpcPor": "port JSON RPC (opcjonalnie)",
+        "rpcPort": "port JSON RPC (opcjonalnie)",
         "status": "Status połączenia:",
         "save": "Zapisz host",
         "delete": "Usuń host"
