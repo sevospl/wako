@@ -154,7 +154,8 @@
       "title": "Kodi Hosts",
       "savedHosts": "Saved Hosts",
       "noHostsAdded": "No hosts have been added yet",
-      "defaultHost": "Default Host"
+      "defaultHost": "Default Host",
+      "addHost": "ADD"
     },
     "kodi-settings": {
       "title": "Kodi Configure Host",
@@ -321,6 +322,11 @@
   "actionSheets": {
     "kodi": {
       "openTitle": "Open on Kodi using..."
+    }
+  },
+  "notifications": {
+    "shows": {
+      "newEpisode": "New Episode: {{showTitle}} {{episodeCode}}"
     }
   }
 }

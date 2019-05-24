@@ -154,7 +154,8 @@
       "title": "Kodi Hôtes",
       "savedHosts": "Hôtes enregistrés",
       "noHostsAdded": "Aucun hôte n'a encore été ajouté",
-      "defaultHost": "Hôte par défaut"
+      "defaultHost": "Hôte par défaut",
+      "addHost": "Ajouter"
     },
     "kodi-settings": {
       "title": "Configuration de l'hôte Kodi",
@@ -310,7 +311,7 @@
   },
   "alerts": {
     "okButton": "Ok",
-    "cancelButton": "Cancel",
+    "cancelButton": "Annuler",
     "app-contribution": {
       "thanksMessage": "Merci de contribuer wako."
     },
@@ -323,6 +324,11 @@
   "actionSheets": {
     "kodi": {
       "openTitle": "Ouvrir sur Kodi via..."
+    }
+  },
+  "notifications": {
+    "shows": {
+      "newEpisode": "Nouvel Episode : {{showTitle}} {{episodeCode}}"
     }
   }
 }

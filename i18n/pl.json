@@ -122,8 +122,8 @@
           "itemOnlyNewEpisodeOnUpToDateShows": "Informuj mnie tylko o następnych odcinkach do obejrzenia"
         },
         "trakt": {
-          "totalWatchedMovies": "W sumie obejrzanych filmów",
-          "totalWatchedEpisodes": "W sumie obejrzanych odcinków",
+          "totalWatchedMovies": "Łącznie obejrzanych filmów",
+          "totalWatchedEpisodes": "Łącznie obejrzanych odcinków",
           "apiStatus": "Trakt API Status",
           "logout": "Wyloguj",
           "signIn": "Zaloguj się lub zarejestruj w Trakt"
@@ -154,7 +154,8 @@
       "title": "Hosty Kodi",
       "savedHosts": "Zapisane hosty",
       "noHostsAdded": "Hosty nie zostały jeszcze dodane",
-      "defaultHost": "Host domyślny"
+      "defaultHost": "Host domyślny",
+      "addHost": "DODAJ"
     },
     "kodi-settings": {
       "title": "Konfiguracja hosta Kodi",
@@ -321,6 +322,11 @@
   "actionSheets": {
     "kodi": {
       "openTitle": "Odtwórz na Kodi używając..."
+    }
+  },
+  "notifications": {
+    "shows": {
+      "newEpisode": "Nowy odcinek: {{showTitle}} {{episodeCode}}"
     }
   }
 }
