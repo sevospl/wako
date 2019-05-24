@@ -177,6 +177,10 @@
         "pluginsUrl": "Plugins URL:",
         "noUrl": "none set"
       },
+      "openRemoteList": {
+        "header": "Remote",
+        "item": "Open remote after clicking"
+      },
       "pluginList": {
         "header": "Plugins"
       }
@@ -260,6 +264,8 @@
       "markAsUnwatched": "Marked {{movieTitle}} as unwatched",
       "addedToWatchlist": "Added {{movieTitle}} to your Watch List",
       "removedFromWatchlist": "Removed {{movieTitle}} from your Watch List",
+      "addedToCollection": "Added {{movieTitle}} to your Collection",
+      "removedFromCollection": "Removed {{movieTitle}} from your Collection",
       "noRandomMovieFound": "No movie found for genres: {{genreList}}",
       "notFoundOnTrakt": "Movie not found on trakt"
     },
@@ -290,7 +296,7 @@
     },
     "kodi": {
       "noHost": "No host set for kodi",
-      "hostUnreachable": "Ouch, your kodi host {{hostNmae}} is unreachable",
+      "hostUnreachable": "Ouch, your kodi host {{hostName}} is unreachable",
       "noSupportedPluginsInstalled": "Ouch, None of the supported plugins are installed, please install at least one of them",
       "failedToOpen": "Failed to open",
       "startOpening": "Opening {{title}} on {{hostName}}",

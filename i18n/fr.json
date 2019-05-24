@@ -177,6 +177,10 @@
         "pluginsUrl": "Plugins URL:",
         "noUrl": "aucune"
       },
+      "openRemoteList": {
+        "header": "Télécommande",
+        "item": "Ouvrir la télécommande après avoir cliqué"
+      },
       "pluginList": {
         "header": "Plugins"
       }
@@ -254,17 +258,21 @@
       "airs": "Sort le"
     }
   },
-  "toast": {
+  "toasts": {
     "movie": {
       "markAsWatched": "Marked {{movieTitle}} a été marqué comme vu",
       "markAsUnwatched": "Marked {{movieTitle}} a été marqué comme non vu",
       "addedToWatchlist": "{{movieTitle}} a été ajouté à votre Watch List",
       "removedFromWatchlist": "{{movieTitle}} a été retiré de votre Watch List",
+      "addedToCollection": "{{movieTitle}} a été retiré de votre Collection",
+      "removedFromCollection": "{{movieTitle}} a été retiré de votre Collection",
       "noRandomMovieFound": "Aucun film trouvé pour les genres : {{genreList}}",
       "notFoundOnTrakt": "Film non trouvé sur trakt"
     },
     "show": {
       "removedFromWatchlist": "{{showTitle}} a été retiré de votre Watch List",
+      "addedToCollection": "{{showTitle}} a été retiré de votre  Collection",
+      "removedFromCollection": "{{showTitle}} a été retiré de votre  Collection",
       "notFoundOnTrakt": "Série non trouvée sur trakt"
     },
     "season": {
@@ -290,7 +298,7 @@
     },
     "kodi": {
       "noHost": "Aucun hôte définit pour kodi",
-      "hostUnreachable": "Aïe, votre hôte kodi {{hostNmae}} est injoignable",
+      "hostUnreachable": "Aïe, votre hôte kodi {{hostName}} est injoignable",
       "noSupportedPluginsInstalled": "Aïe, aucun des plugins supportés n'est installé, veuillez en installer au moins un.",
       "failedToOpen": "N'a pas réussi à ouvrir",
       "startOpening": "Lancement de {{title}} sur {{hostName}}",
