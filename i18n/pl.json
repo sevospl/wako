@@ -273,6 +273,8 @@
     },
     "show": {
       "removedFromWatchlist": "Usunięto {{showTitle}} z listy do obejrzania",
+      "addedToCollection": "Dodano {{showTitle}} do twojej kolekcji",
+      "removedFromCollection": "Usunięto {{showTitle}} z twojej kolekcji",
       "notFoundOnTrakt": "Nie znaleziono serialu w trakt"
     },
     "season": {

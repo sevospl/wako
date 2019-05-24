@@ -273,6 +273,8 @@
     },
     "show": {
       "removedFromWatchlist": "Removed {{showTitle}} from your Watch List",
+      "addedToCollection": "Added {{showTitle}} to your Collection",
+      "removedFromCollection": "Removed {{showTitle}} from your Collection",
       "notFoundOnTrakt": "Show not found on trakt"
     },
     "season": {
