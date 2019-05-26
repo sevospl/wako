@@ -177,7 +177,7 @@
       "list": {
         "header": "Setup",
         "pluginsUrl": "Plugins URL:",
-        "noUrl": "none set"
+        "noUrl": "Click here to add one"
       },
       "openRemoteList": {
         "header": "Remote",
@@ -192,7 +192,7 @@
       "list": {
         "header": "Setup",
         "providersUrl": "Providers URL:",
-        "noUrl": "none set"
+        "noUrl": "Click here to add one"
       },
       "enabledSource": {
         "header": "Enabled Source"
@@ -286,7 +286,7 @@
       "markAsUnwatched": "Marked {{showTitle}} {{episodeCode}} as unwatched"
     },
     "elementumNotInstalled": "Elementum Add-on needs to be installed to continue",
-    "kodi-remote-contro": {
+    "kodi-remote-control": {
       "warningWebsocket": "Warning - you are not connected to kodi throught websocket service"
     },
     "app": {
@@ -307,7 +307,15 @@
       "open": "Open on {{hostName}} using {{pluginName}}"
     },
     "pluginsUpdated": "Plugins have been updated",
-    "providersUpdated": "Providers have been updated"
+    "providersUpdated": "Providers have been updated",
+    "kodi-open-button": {
+      "plugingUrlAdded": "Plugins added",
+      "plugingUrlFailedToAdd": "Failed to add plugins, please check the given URL"
+    },
+    "providers": {
+      "providerUrlAdded": "Providers added",
+      "providerUrlFailedToAdd": "Failed to add Providers, please check the given URL"
+    }
   },
   "alerts": {
     "okButton": "Ok",

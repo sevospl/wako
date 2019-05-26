@@ -286,7 +286,7 @@
       "markAsUnwatched": "Oznaczono {{showTitle}} {{episodeCode}} jako nieobejrzany"
     },
     "elementumNotInstalled": "Wtyczka Elementum musi zostać zainstalowana aby kontynuować",
-    "kodi-remote-contro": {
+    "kodi-remote-control": {
       "warningWebsocket": "Uwaga - nie jesteś połączony z kodi za pośrednictwem usługi websocket."
     },
     "app": {

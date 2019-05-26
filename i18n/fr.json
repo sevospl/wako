@@ -286,7 +286,7 @@
       "markAsUnwatched": "{{showTitle}} {{episodeCode}} a été marqué comme non vu"
     },
     "elementumNotInstalled": "Elementum Add-on doit être installé pour continuer",
-    "kodi-remote-contro": {
+    "kodi-remote-control": {
       "warningWebsocket": "Attention - vous n'êtes pas connecté à kodi via webocket"
     },
     "app": {
@@ -307,7 +307,15 @@
       "open": "Lecture sur {{hostName}} via {{pluginName}}"
     },
     "pluginsUpdated": "Les plugins ont été mis à jour",
-    "providersUpdated": "Les Providers ont été mis à jour"
+    "providersUpdated": "Les Providers ont été mis à jour",
+    "kodi-open-button": {
+      "plugingUrlAdded": "Les Plugins ont été ajoutés avec succès",
+      "plugingUrlFailedToAdd": "Les Plugins n'ont pas été ajoutés, veuillez vérifier l'URL donnée"
+    },
+    "providers": {
+      "providerUrlAdded": "Les Providers ont été ajoutés avec succès",
+      "providerUrlFailedToAdd": "Les Providers n'ont pas été ajoutés, veuillez vérifier l'URL donnée"
+    }
   },
   "alerts": {
     "okButton": "Ok",
