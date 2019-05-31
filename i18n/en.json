@@ -116,6 +116,10 @@
           "header": "Providers",
           "item": "Configure Providers"
         },
+        "cloud-account": {
+          "header": "Cloud Accounts (beta)",
+          "item": "Configure Cloud Accounts"
+        },
         "notification": {
           "header": "Notifications",
           "itemEnableTvShows": "Enable TV Shows notifications",
@@ -195,11 +199,23 @@
         "providersUrl": "Providers URL:",
         "noUrl": "Click here to add one"
       },
+      "automaticSearch": {
+        "header": "Automatic search",
+        "item": "Enable automatic search"
+      },
       "enabledSource": {
         "header": "Enabled Source"
       },
       "providerList": {
         "header": "Providers"
+      }
+    },
+    "cloud-account": {
+      "list": {
+        "title": "Cloud Accounts",
+        "logout": "Logout",
+        "login": "Login",
+        "noPremimumizeAccount" : "No Premiumize account? Click here"
       }
     }
   },
@@ -254,13 +270,22 @@
     "sign-in": {
       "button": "Sign in or Sign up with Trakt"
     },
-    "open-kodi": {
-      "button": "Open on Kodi",
-      "searchingSources": "Searching sources"
+    "open-button": {
+      "buttonSearch": "Search sources",
+      "buttonOpen": "Open",
+      "buttonOpenKodi": "Open on Kodi",
+      "searchingSources": "Searching sources",
+      "noSourcesFound": "No source found"
     },
     "misc": {
       "aired": "Aired",
       "airs": "Airs"
+    },
+    "sources": {
+      "segments": {
+        "cached": "Cached only",
+        "all": "All"
+      }
     }
   },
   "toasts": {
@@ -318,6 +343,9 @@
     "providers": {
       "providerUrlAdded": "Providers added",
       "providerUrlFailedToAdd": "Failed to add Providers, please check the given URL"
+    },
+    "premiumize": {
+      "invalidApiKey": "Then API Key is not valid"
     }
   },
   "alerts": {
@@ -335,6 +363,9 @@
   "actionSheets": {
     "kodi": {
       "openTitle": "Open on Kodi using..."
+    },
+    "open-button": {
+      "openTitle": "Open..."
     }
   },
   "notifications": {

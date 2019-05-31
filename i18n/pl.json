@@ -251,7 +251,7 @@
     "sign-in": {
       "button": "Zaloguj się lub zarejestruj w Trakt"
     },
-    "open-kodi": {
+    "open-button": {
       "button": "Odtwórz na Kodi",
       "searchingSources": "Wyszukiwanie źródeł"
     },

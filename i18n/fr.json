@@ -116,6 +116,10 @@
           "header": "Providers",
           "item": "Configurer les providers"
         },
+        "cloud-account": {
+          "header": "Cloud Accounts (beta)",
+          "item": "Configure Cloud Accounts"
+        },
         "notification": {
           "header": "Notifications",
           "itemEnableTvShows": "Activer les notifications des séries TV",
@@ -139,6 +143,7 @@
           "support": "Support",
           "clearCache": "Effacer le cache",
           "privacyPolicy": "Politique de confidentialité",
+          "termsConditions": "Terms & Conditions ",
           "appVersion": "App Version"
         }
       }
@@ -200,12 +205,22 @@
       "providerList": {
         "header": "Providers"
       }
+    },
+    "cloud-account": {
+      "list": {
+        "title": "Cloud Accounts",
+        "logout": "Se déconnecter",
+        "login": "Se connecter",
+        "noPremimumizeAccount" : "Pas de compte Premiumize ? Cliquez ici"
+      }
     }
   },
   "modals": {
     "app-contribution": {
       "title": "Contribution",
-      "text": "wako est gratuit et ne contient aucune publicité.<br />Cela prend beaucoup de temps pour rendre l'appliction de mieux en mieux.<br />Si vous aimez vraiment wako, vous pouvez y contribuer en vous abonnant au produit ci-dessous <br /><br />Merci."
+      "text": "wako est gratuit et ne contient aucune publicité.<br />Cela prend beaucoup de temps pour rendre l'appliction de mieux en mieux.<br />Si vous aimez vraiment wako, vous pouvez y contribuer en vous abonnant au produit ci-dessous <br /><br />Merci.",
+      "iosTextSubscriptionByProduct": "A {{ productPrice }}/month purchase will be applied to your iTunes account on confirmation.",
+      "iosTextSubscriptionGeneral": "Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription. For more information, see our Terms & Conditions and Privacy Policy."
     },
     "app-outdated": {
       "text": "Votre application n'est plus à jour. Veuillez la mettre à jour pour continuer à l'utiliser"
@@ -251,13 +266,22 @@
     "sign-in": {
       "button": "Connectez-vous avec Trakt"
     },
-    "open-kodi": {
-      "button": "Ouvrir sur Kodi",
-      "searchingSources": "Recherche de sources"
+    "open-button": {
+      "buttonSearch": "Rechercher des sources",
+      "buttonOpen": "Ouvrir",
+      "buttonOpenKodi": "Ouvrir sur Kodi",
+      "searchingSources": "Recherche de sources",
+      "noSourcesFound": "Aucune source trouvée"
     },
     "misc": {
       "aired": "Diffusé le",
       "airs": "Sort le"
+    },
+    "sources": {
+      "segments": {
+        "cached": "Cached Seulement",
+        "all": "Toutes"
+      }
     }
   },
   "toasts": {
@@ -315,6 +339,9 @@
     "providers": {
       "providerUrlAdded": "Les Providers ont été ajoutés avec succès",
       "providerUrlFailedToAdd": "Les Providers n'ont pas été ajoutés, veuillez vérifier l'URL donnée"
+    },
+    "premiumize": {
+      "invalidApiKey": "La clé API n'est pas valide"
     }
   },
   "alerts": {
