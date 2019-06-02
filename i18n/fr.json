@@ -211,7 +211,10 @@
         "title": "Cloud Accounts",
         "logout": "Se déconnecter",
         "login": "Se connecter",
-        "noPremimumizeAccount" : "Pas de compte Premiumize ? Cliquez ici"
+        "noPremimumizeAccount": "Pas de compte Premiumize ? Cliquez ici",
+        "premiumize": {
+          "preferTranscoded": "Prefer transcoded files"
+        }
       }
     }
   },
@@ -220,7 +223,9 @@
       "title": "Contribution",
       "text": "wako est gratuit et ne contient aucune publicité.<br />Cela prend beaucoup de temps pour rendre l'appliction de mieux en mieux.<br />Si vous aimez vraiment wako, vous pouvez y contribuer en vous abonnant au produit ci-dessous <br /><br />Merci.",
       "iosTextSubscriptionByProduct": "A {{ productPrice }}/month purchase will be applied to your iTunes account on confirmation.",
-      "iosTextSubscriptionGeneral": "Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription. For more information, see our Terms & Conditions and Privacy Policy."
+      "iosTextSubscriptionGeneral": "Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription. For more information, see our Terms & Conditions and Privacy Policy.",
+      "subscriptionHeader": "Abonnements Auto Renouvelable",
+      "consumableHeader": "Achat unique"
     },
     "app-outdated": {
       "text": "Votre application n'est plus à jour. Veuillez la mettre à jour pour continuer à l'utiliser"
@@ -278,6 +283,7 @@
       "airs": "Sort le"
     },
     "sources": {
+      "buttonSearch": "Search sources",
       "segments": {
         "cached": "Cached Seulement",
         "all": "Toutes"
@@ -339,6 +345,9 @@
     "providers": {
       "providerUrlAdded": "Les Providers ont été ajoutés avec succès",
       "providerUrlFailedToAdd": "Les Providers n'ont pas été ajoutés, veuillez vérifier l'URL donnée"
+    },
+    "cloud-account": {
+      "needToAddProviders": "Vous devez ajouter des providers pour profiter du service des débrideurs"
     },
     "premiumize": {
       "invalidApiKey": "La clé API n'est pas valide"
