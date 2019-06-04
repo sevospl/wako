@@ -204,7 +204,8 @@
         "item": "Enable automatic search"
       },
       "enabledSource": {
-        "header": "Enabled Source"
+        "header": "Enabled Source",
+        "howItWorks": "For performance reason, it's recommended to only enable the best quality you prefer. If less than 2 sources are found for this quality, then the lower quality will be used until the lowest quality is reach"
       },
       "providerList": {
         "header": "Providers"
