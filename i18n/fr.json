@@ -212,6 +212,7 @@
         "logout": "Se déconnecter",
         "login": "Se connecter",
         "noPremimumizeAccount": "Pas de compte Premiumize ? Cliquez ici",
+        "noRealDebridAccount": "Pas de compte Real Debrid ? Cliquez ici",
         "premiumize": {
           "preferTranscoded": "Prefer transcoded files"
         }
@@ -351,6 +352,9 @@
     },
     "premiumize": {
       "invalidApiKey": "La clé API n'est pas valide"
+    },
+    "real-debrid": {
+      "failedToLogin": "Impossible de se connecter"
     }
   },
   "alerts": {

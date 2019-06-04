@@ -216,6 +216,7 @@
         "logout": "Logout",
         "login": "Login",
         "noPremimumizeAccount": "No Premiumize account? Click here",
+        "noRealDebridAccount": "No Real Debrid account? Click here",
         "premiumize": {
           "preferTranscoded": "Prefer transcoded files"
         }
@@ -271,7 +272,7 @@
   },
   "shared": {
     "noResult": "No result",
-    "cancel": "Annuler",
+    "cancel": "Cancel",
     "sign-in": {
       "button": "Sign in or Sign up with Trakt"
     },
@@ -355,6 +356,9 @@
     },
     "premiumize": {
       "invalidApiKey": "Then API Key is not valid"
+    },
+    "real-debrid": {
+      "failedToLogin": "Failed to login"
     }
   },
   "alerts": {
@@ -366,6 +370,13 @@
     "movie": {
       "random": {
         "header": "Get a random movie for genres:"
+      }
+    },
+    "cloud-account": {
+      "real-debrid": {
+        "authHeader": "Real Debrid Auth",
+        "enterCode": "Open this link: https://real-debrid.com/device<br><br>Enter this code:",
+        "openUrlButton": "Open the link"
       }
     }
   },
