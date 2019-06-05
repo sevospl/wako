@@ -356,7 +356,7 @@
       "needToAddProviders": "You need to add some providers to enjoy debrid services."
     },
     "premiumize": {
-      "invalidApiKey": "Then API Key is not valid"
+      "invalidApiKey": "The API Key is not valid"
     },
     "real-debrid": {
       "failedToLogin": "Failed to login"
