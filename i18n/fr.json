@@ -276,7 +276,7 @@
     "open-button": {
       "buttonSearch": "Rechercher des sources",
       "buttonOpen": "Ouvrir",
-      "buttonOpenKodi": "Ouvrir sur Kodi",
+      "buttonOpenKodi": "Ouvrir avec Kodi",
       "searchingSources": "Recherche de sources",
       "noSourcesFound": "Aucune source trouvée"
     },
@@ -372,7 +372,25 @@
   },
   "actionSheets": {
     "kodi": {
-      "openTitle": "Ouvrir sur Kodi via..."
+      "openTitle": "Ouvrir avec Kodi via..."
+
+    },
+    "open-button": {
+      "openTitle": "Ouvrir...",
+      "options": {
+        "cached": "la video",
+        "kodi": "avec kodi"
+      }
+    },
+    "open-cached-url": {
+      "openTitle": "Quoi faire ?",
+      "options": {
+        "kodi": "Ouvrir avec Kodi",
+        "browser": "Ouvrir dans votre navigateur",
+        "copy": "Copier l'URL de la vidéo",
+        "vlc": "Ouvert avec VLC",
+        "downloadVlc": "Télécharger avec VLC"
+      }
     }
   },
   "notifications": {
