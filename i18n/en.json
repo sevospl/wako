@@ -389,7 +389,7 @@
     "open-button": {
       "openTitle": "Open...",
       "options": {
-        "cached": "video",
+        "cached": "the video URL",
         "kodi": "with kodi"
       }
     },
