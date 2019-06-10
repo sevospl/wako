@@ -324,6 +324,7 @@
     "app": {
       "traktApiIssue1": "API Trakt - Impossible de charger la ressource, veuillez réessayer plus tard. (code d'erreur {{errorStatus}})",
       "traktApiServerOverloaded": "API Trakt - Le serveur est surchargé. Veuillez réessayer dans 30 secondes.",
+      "traktNotConnectedAnyMore": "Trakt API - You're not connected to trakt anymore, please reconnect",
       "newVersionAvailable": "Une nouvelle version de wako est disponible",
       "updateInstalled": "wako a été mis à jour. Relancez l'application pour en profiter"
     },
