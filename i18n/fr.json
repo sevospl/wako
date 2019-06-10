@@ -199,6 +199,10 @@
         "providersUrl": "Providers URL:",
         "noUrl": "aucune"
       },
+      "automaticSearch": {
+        "header": "Automatic search",
+        "item": "Enable automatic search"
+      },
       "enabledSource": {
         "header": "Source activée",
         "howItWorks": "Pour des raisons de performance, il est recommandé de n'activer que la meilleure qualité que vous préférez. Si moins de 2 sources sont trouvées pour cette qualité, alors la qualité inférieure sera utilisée jusqu'à ce que la qualité la plus basse soit atteinte."
@@ -357,6 +361,12 @@
     },
     "real-debrid": {
       "failedToLogin": "Impossible de se connecter"
+    },
+    "copyToClipboard": "{{element}} a été copié dans le presse papier",
+    "open-source": {
+      "cannotRetrieveUrl": "Cette source est illisible, ne peut pas récupérer son URL",
+      "addedToPM": "La source a été ajoutée à votre compte PM",
+      "failedToAddToPM": "Échec de l'ajout de la source à votre compte PM : {{error}}"
     }
   },
   "alerts": {
@@ -369,12 +379,18 @@
       "random": {
         "header": "Trouvez un film aléatoire pour les genres :"
       }
+    },
+    "cloud-account": {
+      "real-debrid": {
+        "authHeader": "Real Debrid Auth",
+        "enterCode": "Ouvrez ce lien : https://real-debrid.com/device<br><br><br>Entrer ce code :",
+        "openUrlButton": "Ouvrir le lien"
+      }
     }
   },
   "actionSheets": {
     "kodi": {
       "openTitle": "Ouvrir avec Kodi via..."
-
     },
     "open-button": {
       "openTitle": "Ouvrir...",
@@ -390,7 +406,10 @@
         "browser": "Ouvrir dans votre navigateur",
         "copy": "Copier l'URL de la vidéo",
         "vlc": "Ouvert avec VLC",
-        "downloadVlc": "Télécharger avec VLC"
+        "downloadVlc": "Télécharger avec VLC",
+        "openWithElementum": "Ouvrir avec Elementum Kodi addon",
+        "addToPM": "Ajouter à PM",
+        "addToRD": "Ajouter à RD"
       }
     }
   },

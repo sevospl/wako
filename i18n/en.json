@@ -362,7 +362,12 @@
     "real-debrid": {
       "failedToLogin": "Failed to login"
     },
-    "copyToClipboard": "{{element}} has been copied to your clipboard"
+    "copyToClipboard": "{{element}} has been copied to your clipboard",
+    "open-source": {
+      "cannotRetrieveUrl": "This source is unplayable, cannot retrieve its URL",
+      "addedToPM": "Source has been added to you PM account",
+      "failedToAddToPM": "Failed to add the source to your PM account: {{error}}"
+    }
   },
   "alerts": {
     "okButton": "Ok",
@@ -390,18 +395,21 @@
     "open-button": {
       "openTitle": "Open...",
       "options": {
-        "cached": "the video URL",
-        "kodi": "with kodi"
+        "cached": "the source URL",
+        "kodi": "with a kodi addon"
       }
     },
-    "open-cached-url": {
+    "open-source": {
       "openTitle": "What to do?",
       "options": {
         "kodi": "Open with Kodi",
         "browser": "Open in your browser",
         "copy": "Copy video URL",
         "vlc": "Open with VLC",
-        "downloadVlc": "Download with VLC"
+        "downloadVlc": "Download with VLC",
+        "openWithElementum": "Open with Elementum Kodi addon",
+        "addToPM": "Add to PM",
+        "addToRD": "Add to RD"
       }
     }
   },
