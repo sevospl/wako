@@ -205,7 +205,7 @@
       },
       "enabledSource": {
         "header": "Enabled Source",
-        "howItWorks": "For performance reason, it's recommended to only enable the best quality you prefer. If less than 2 sources are found for this quality, then the lower quality will be used until the lowest quality is reach"
+        "howItWorks": "For performance reason, it's recommended to only enable the best quality you prefer. If less than 20 sources are found for this quality, then the lower quality will be used until the lowest quality is reach"
       },
       "providerList": {
         "header": "Providers"

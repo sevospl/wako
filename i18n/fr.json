@@ -205,7 +205,7 @@
       },
       "enabledSource": {
         "header": "Source activée",
-        "howItWorks": "Pour des raisons de performance, il est recommandé de n'activer que la meilleure qualité que vous préférez. Si moins de 2 sources sont trouvées pour cette qualité, alors la qualité inférieure sera utilisée jusqu'à ce que la qualité la plus basse soit atteinte."
+        "howItWorks": "Pour des raisons de performance, il est recommandé de n'activer que la meilleure qualité que vous préférez. Si moins de 20 sources sont trouvées pour cette qualité, alors la qualité inférieure sera utilisée jusqu'à ce que la qualité la plus basse soit atteinte."
       },
       "providerList": {
         "header": "Providers"
