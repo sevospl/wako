@@ -366,7 +366,10 @@
     "open-source": {
       "cannotRetrieveUrl": "This source is unplayable, cannot retrieve its URL",
       "addedToPM": "Source has been added to you PM account",
-      "failedToAddToPM": "Failed to add the source to your PM account: {{error}}"
+      "failedToAddToPM": "Failed to add the source to your PM account: {{error}}",
+      "addedToRD": "Source has been added to you RD account",
+      "failedToAddToRD": "Failed to add the source to your RD account: {{error}}",
+      "sourceNotCached": "Failed to retrieved the video URL"
     }
   },
   "alerts": {

@@ -366,7 +366,10 @@
     "open-source": {
       "cannotRetrieveUrl": "Cette source est illisible, ne peut pas récupérer son URL",
       "addedToPM": "La source a été ajoutée à votre compte PM",
-      "failedToAddToPM": "Échec de l'ajout de la source à votre compte PM : {{error}}"
+      "failedToAddToPM": "Échec de l'ajout de la source à votre compte PM : {{error}}",
+      "addedToRD": "La source a été ajoutée à votre compte RD",
+      "failedToAddToRD": "Échec de l'ajout de la source à votre compte RD : {{error}}",
+      "sourceNotCached": "Échec de la récupération de l'URL de la video"
     }
   },
   "alerts": {
