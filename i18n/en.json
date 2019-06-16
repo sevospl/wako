@@ -94,7 +94,7 @@
         "search": "Search a TV Show",
         "myTvShows": "My TV Shows"
       },
-      "season-detail": {
+      "show-detail": {
         "seasons": "Seasons"
       },
       "episode-detail": {
@@ -407,12 +407,15 @@
       "options": {
         "kodi": "Open with Kodi",
         "browser": "Open in your browser",
-        "copy": "Copy video URL",
+        "copy": "Copy URL",
         "vlc": "Open with VLC",
         "downloadVlc": "Download with VLC",
         "openWithElementum": "Open with Elementum Kodi addon",
         "addToPM": "Add to PM",
         "addToRD": "Add to RD"
+      },
+      "selectLink": {
+        "openTitle": "This source has multiple links, which one you want to open?"
       }
     }
   },

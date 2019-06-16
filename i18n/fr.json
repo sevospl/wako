@@ -94,7 +94,7 @@
         "search": "Rechercher une série",
         "myTvShows": "Mes Séries"
       },
-      "season-detail": {
+      "show-detail": {
         "seasons": "Saisons"
       },
       "episode-detail": {
@@ -413,6 +413,9 @@
         "openWithElementum": "Ouvrir avec Elementum Kodi addon",
         "addToPM": "Ajouter à PM",
         "addToRD": "Ajouter à RD"
+      },
+      "selectLink": {
+        "openTitle": "Cette source a plusieurs liens, lequel voulez-vous ouvrir ?"
       }
     }
   },
