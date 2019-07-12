@@ -177,21 +177,6 @@
         "delete": "Supprimer"
       }
     },
-    "kodi-open-button": {
-      "title": "Bouton Ouvrir",
-      "list": {
-        "header": "Configuration",
-        "pluginsUrl": "Plugins URL:",
-        "noUrl": "aucune"
-      },
-      "openRemoteList": {
-        "header": "Télécommande",
-        "item": "Ouvrir la télécommande après avoir cliqué"
-      },
-      "pluginList": {
-        "header": "Plugins"
-      }
-    },
     "providers": {
       "title": "Providers",
       "list": {
@@ -280,7 +265,6 @@
     "open-button": {
       "buttonSearch": "Rechercher des sources",
       "buttonOpen": "Ouvrir",
-      "buttonOpenKodi": "Ouvrir avec Kodi",
       "searchingSources": "Recherche de sources",
       "noSourcesFound": "Aucune source trouvée"
     },
@@ -338,12 +322,9 @@
     "kodi": {
       "noHost": "Aucun hôte définit pour kodi",
       "hostUnreachable": "Aïe, votre hôte kodi {{hostName}} est injoignable",
-      "noSupportedPluginsInstalled": "Aïe, aucun des plugins supportés n'est installé, veuillez en installer au moins un.",
-      "failedToOpen": "N'a pas réussi à ouvrir",
       "startOpening": "Lancement de {{title}} sur {{hostName}}",
       "open": "Lecture sur {{hostName}} via {{pluginName}}"
     },
-    "pluginsUpdated": "Les plugins ont été mis à jour",
     "providersUpdated": "Les Providers ont été mis à jour",
     "kodi-open-button": {
       "plugingUrlAdded": "Les Plugins ont été ajoutés avec succès",
@@ -392,9 +373,6 @@
     }
   },
   "actionSheets": {
-    "kodi": {
-      "openTitle": "Ouvrir avec Kodi via..."
-    },
     "open-button": {
       "openTitle": "Ouvrir...",
       "options": {

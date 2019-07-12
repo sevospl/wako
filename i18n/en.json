@@ -112,13 +112,9 @@
           "item": "Configure Hosts",
           "plugins": "Configure Open Button"
         },
-        "provider": {
-          "header": "Providers",
-          "item": "Configure Providers"
-        },
-        "cloud-account": {
-          "header": "Cloud Accounts (beta)",
-          "item": "Configure Cloud Accounts"
+        "addons": {
+          "header": "Add-ons",
+          "item": "Configure / Install Add-ons"
         },
         "notification": {
           "header": "Notifications",
@@ -177,51 +173,32 @@
         "delete": "Delete Host"
       }
     },
-    "kodi-open-button": {
-      "title": "Kodi Open Button",
-      "list": {
-        "header": "Setup",
-        "pluginsUrl": "Plugins URL:",
-        "noUrl": "Click here to add one"
+    "addons": {
+      "title": "Add-ons",
+      "list-installed": {
+        "header": "Installed Add-ons"
       },
-      "openRemoteList": {
-        "header": "Remote",
-        "item": "Open remote after clicking"
-      },
-      "pluginList": {
-        "header": "Plugins"
+      "list-available": {
+        "header": "Available Add-ons"
       }
     },
-    "providers": {
-      "title": "Providers",
-      "list": {
-        "header": "Setup",
-        "providersUrl": "Providers URL:",
-        "noUrl": "Click here to add one"
+    "addon": {
+      "title": "Add-on Detail",
+      "settings": "Add-on Settings",
+      "install": "Install",
+      "uninstall": "Uninstall",
+      "thirdParty": "This add-on has not been created by wako. Using third party add-ons will always be subject to your responsibility and the governing law of the jurisdiction you are located. wako cannot be held responsible",
+      "uninstall-confirm": {
+        "header": "Uninstall this add-on",
+        "message": "Are you sure?"
       },
-      "automaticSearch": {
-        "header": "Automatic search",
-        "item": "Enable automatic search"
-      },
-      "enabledSource": {
-        "header": "Enabled Source",
-        "howItWorks": "For performance reason, it's recommended to only enable the best quality you prefer. If less than 20 sources are found for this quality, then the lower quality will be used until the lowest quality is reach"
-      },
-      "providerList": {
-        "header": "Providers"
+      "install-confirm": {
+        "header": "Install this add-on",
+        "message": "Are you sure?"
       }
     },
-    "cloud-account": {
-      "list": {
-        "title": "Cloud Accounts",
-        "logout": "Logout",
-        "login": "Login",
-        "noPremimumizeAccount": "No Premiumize account? Click here",
-        "noRealDebridAccount": "No Real Debrid account? Click here",
-        "premiumize": {
-          "preferTranscoded": "Prefer transcoded files"
-        }
-      }
+    "addon-settings": {
+      "title": "Add-on Settings"
     }
   },
   "modals": {
@@ -280,7 +257,6 @@
     "open-button": {
       "buttonSearch": "Search sources",
       "buttonOpen": "Open",
-      "buttonOpenKodi": "Open on Kodi",
       "searchingSources": "Searching sources",
       "noSourcesFound": "No source found"
     },
@@ -338,12 +314,9 @@
     "kodi": {
       "noHost": "No host set for kodi",
       "hostUnreachable": "Ouch, your kodi host {{hostName}} is unreachable",
-      "noSupportedPluginsInstalled": "Ouch, None of the supported plugins are installed, please install at least one of them",
-      "failedToOpen": "Failed to open",
       "startOpening": "Opening {{title}} on {{hostName}}",
       "open": "Open on {{hostName}} using {{pluginName}}"
     },
-    "pluginsUpdated": "Plugins have been updated",
     "providersUpdated": "Providers have been updated",
     "kodi-open-button": {
       "plugingUrlAdded": "Plugins added",
@@ -392,14 +365,11 @@
     }
   },
   "actionSheets": {
-    "kodi": {
-      "openTitle": "Open with Kodi using..."
-    },
     "open-button": {
       "openTitle": "Open...",
       "options": {
         "cached": "the source URL",
-        "kodi": "with a kodi addon"
+        "kodi": "with a kodi add-on"
       }
     },
     "open-source": {
@@ -410,7 +380,7 @@
         "copy": "Copy URL",
         "vlc": "Open with VLC",
         "downloadVlc": "Download with VLC",
-        "openWithElementum": "Open with Elementum Kodi addon",
+        "openWithElementum": "Open with Elementum Kodi add-on",
         "addToPM": "Add to PM",
         "addToRD": "Add to RD"
       },

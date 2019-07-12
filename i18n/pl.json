@@ -172,21 +172,6 @@
         "delete": "Usuń host"
       }
     },
-    "kodi-open-button": {
-      "title": "Przycisk odtwórz w Kodi",
-      "list": {
-        "header": "Konfiguracja",
-        "pluginsUrl": "Adres URL wtyczek:",
-        "noUrl": "nic nie ustawiono"
-      },
-      "openRemoteList": {
-        "header": "Pilot",
-        "item": "Otwórz pilota po kliknięciu"
-      },
-      "pluginList": {
-        "header": "Wtyczki"
-      }
-    },
     "providers": {
       "title": "Dostawcy",
       "list": {
@@ -301,12 +286,9 @@
     "kodi": {
       "noHost": "Brak hostów z Kodi",
       "hostUnreachable": "Ałć... twój host z Kodi {{hostNmae}} jest niedostępny",
-      "noSupportedPluginsInstalled": "Ałć... Żadna ze wspieranych wtyczek nie jest zainstalowana, zainstaluj przynajmniej jedną ze wspieranych wtyczek.",
-      "failedToOpen": "Błąd podczas otwierania",
       "startOpening": "Odtwórz {{title}} na {{hostName}}",
       "open": "Odtwarzanie na {{hostName}} przy użyciu {{pluginName}}"
     },
-    "pluginsUpdated": "Wtyczki zostały zaktualizowane",
     "providersUpdated": "Dostawcy zostali zaktualizowani"
   },
   "alerts": {
@@ -322,9 +304,6 @@
     }
   },
   "actionSheets": {
-    "kodi": {
-      "openTitle": "Odtwórz na Kodi używając..."
-    }
   },
   "notifications": {
     "shows": {
