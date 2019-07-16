@@ -109,12 +109,11 @@
           "item": "Wesprzyj"
         },
         "kodi": {
-          "item": "Skonfiguruj hosta",
-          "plugins": "Skonfiguruj przycisk odtwórz"
+          "item": "Skonfiguruj hosta"
         },
-        "provider": {
-          "header": "Dostawcy",
-          "item": "Skonfiguruj dostawców"
+        "addons": {
+          "header": "Add-ons",
+          "item": "Configure / Install Add-ons"
         },
         "notification": {
           "header": "Powiadomienia",
@@ -139,6 +138,7 @@
           "support": "Pomoc",
           "clearCache": "Wyczyść pamięć podręczną",
           "privacyPolicy": "Polityka prywatności",
+          "termsConditions": "Terms & Conditions ",
           "appVersion": "Wersja aplikacji"
         }
       }
@@ -172,25 +172,42 @@
         "delete": "Usuń host"
       }
     },
-    "providers": {
-      "title": "Dostawcy",
-      "list": {
-        "header": "Konfiguracja",
-        "providersUrl": "Adres URL dostawców:",
-        "noUrl": "nic nie ustawiono"
+    "addons": {
+      "title": "Add-ons",
+      "list-installed": {
+        "header": "Installed Add-ons"
       },
-      "enabledSource": {
-        "header": "Włącz źródła"
-      },
-      "providerList": {
-        "header": "Dostawcy"
+      "list-available": {
+        "header": "Available Add-ons"
       }
+    },
+    "addon": {
+      "title": "Add-on Detail",
+      "settings": "Add-on Settings",
+      "install": "Install",
+      "uninstall": "Uninstall",
+      "thirdParty": "This add-on has not been created by wako. Using third party add-ons will always be subject to your responsibility and the governing law of the jurisdiction you are located. wako cannot be held responsible",
+      "uninstall-confirm": {
+        "header": "Uninstall this add-on",
+        "message": "Are you sure?"
+      },
+      "install-confirm": {
+        "header": "Install this add-on",
+        "message": "Are you sure?"
+      }
+    },
+    "addon-settings": {
+      "title": "Add-on Settings"
     }
   },
   "modals": {
     "app-contribution": {
       "title": "Składka",
-      "text": "Wako jest damowe i nie zawiera żadnych reklam. <br />Aby aplikacja była coraz lepsza, potrzeba dużo pracy. <br />Jeśli naprawdę lubisz Wako, możesz przyczynić się do rozwoju, subskrybując poniżej<br /><br />Dziękuję!"
+      "text": "Wako jest damowe i nie zawiera żadnych reklam. <br />Aby aplikacja była coraz lepsza, potrzeba dużo pracy. <br />Jeśli naprawdę lubisz Wako, możesz przyczynić się do rozwoju, subskrybując poniżej<br /><br />Dziękuję!",
+      "iosTextSubscriptionByProduct": "A {{ productPrice }}/month purchase will be applied to your iTunes account on confirmation.",
+      "iosTextSubscriptionGeneral": "Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription. For more information, see our Terms & Conditions and Privacy Policy.",
+      "subscriptionHeader": "Auto Renewable subscriptions",
+      "consumableHeader": "One time Purchase"
     },
     "app-outdated": {
       "text": "Twoja aplikacja jest nieaktualna, zaaktualizuj aby kontynuować"
@@ -236,10 +253,6 @@
     "sign-in": {
       "button": "Zaloguj się lub zarejestruj w Trakt"
     },
-    "open-button": {
-      "button": "Odtwórz na Kodi",
-      "searchingSources": "Wyszukiwanie źródeł"
-    },
     "misc": {
       "aired": "Wyemitowane",
       "airs": "Emitowane"
@@ -270,13 +283,13 @@
       "markAsWatched": "Oznaczono {{showTitle}} {{episodeCode}} jako obejrzany",
       "markAsUnwatched": "Oznaczono {{showTitle}} {{episodeCode}} jako nieobejrzany"
     },
-    "elementumNotInstalled": "Wtyczka Elementum musi zostać zainstalowana aby kontynuować",
     "kodi-remote-control": {
       "warningWebsocket": "Uwaga - nie jesteś połączony z kodi za pośrednictwem usługi websocket."
     },
     "app": {
       "traktApiIssue1": "Trakt API - Nie udało się załadować zasobu, spróbuj ponownie później (kod błędu {{errorStatus}})",
       "traktApiServerOverloaded": "Trakt API - Serwer jest przeładowany. Spróbuj ponownie za 30 sekund.",
+      "traktNotConnectedAnyMore": "Trakt API - You're not connected to trakt anymore, please reconnect",
       "newVersionAvailable": "Nowa wersja Wako jest dostępna",
       "updateInstalled": "Wako zostało zaktualizwoane. Zrestartuj aplikację aby cieszyć się nową wersją"
     },
@@ -285,11 +298,11 @@
     },
     "kodi": {
       "noHost": "Brak hostów z Kodi",
-      "hostUnreachable": "Ałć... twój host z Kodi {{hostNmae}} jest niedostępny",
-      "startOpening": "Odtwórz {{title}} na {{hostName}}",
-      "open": "Odtwarzanie na {{hostName}} przy użyciu {{pluginName}}"
+      "hostUnreachable": "Ałć... twój host z Kodi {{hostNmae}} jest niedostępny"
     },
-    "providersUpdated": "Dostawcy zostali zaktualizowani"
+    "addons": {
+      "updated": "These add-ons have been updated:<br>{{updatedAddons}}<br><br>wako needs to be restarted."
+    }
   },
   "alerts": {
     "okButton": "Ok",
@@ -302,8 +315,6 @@
         "header": "Losowy film dla gatunku:"
       }
     }
-  },
-  "actionSheets": {
   },
   "notifications": {
     "shows": {

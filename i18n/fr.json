@@ -109,16 +109,11 @@
           "item": "Contribuer"
         },
         "kodi": {
-          "item": "Configurer les hôtes",
-          "plugins": "Configurer le bouton \"Ouvrir\""
+          "item": "Configurer les hôtes"
         },
-        "provider": {
-          "header": "Providers",
-          "item": "Configurer les providers"
-        },
-        "cloud-account": {
-          "header": "Cloud Accounts (beta)",
-          "item": "Configure Cloud Accounts"
+        "addons": {
+          "header": "Add-ons",
+          "item": "Configure / Install Add-ons"
         },
         "notification": {
           "header": "Notifications",
@@ -177,36 +172,32 @@
         "delete": "Supprimer"
       }
     },
-    "providers": {
-      "title": "Providers",
-      "list": {
-        "header": "Configuration",
-        "providersUrl": "Providers URL:",
-        "noUrl": "aucune"
+    "addons": {
+      "title": "Add-ons",
+      "list-installed": {
+        "header": "Installed Add-ons"
       },
-      "automaticSearch": {
-        "header": "Automatic search",
-        "item": "Enable automatic search"
-      },
-      "enabledSource": {
-        "header": "Source activée",
-        "howItWorks": "Pour des raisons de performance, il est recommandé de n'activer que la meilleure qualité que vous préférez. Si moins de 20 sources sont trouvées pour cette qualité, alors la qualité inférieure sera utilisée jusqu'à ce que la qualité la plus basse soit atteinte."
-      },
-      "providerList": {
-        "header": "Providers"
+      "list-available": {
+        "header": "Available Add-ons"
       }
     },
-    "cloud-account": {
-      "list": {
-        "title": "Cloud Accounts",
-        "logout": "Se déconnecter",
-        "login": "Se connecter",
-        "noPremimumizeAccount": "Pas de compte Premiumize ? Cliquez ici",
-        "noRealDebridAccount": "Pas de compte Real Debrid ? Cliquez ici",
-        "premiumize": {
-          "preferTranscoded": "Prefer transcoded files"
-        }
+    "addon": {
+      "title": "Add-on Detail",
+      "settings": "Add-on Settings",
+      "install": "Install",
+      "uninstall": "Uninstall",
+      "thirdParty": "This add-on has not been created by wako. Using third party add-ons will always be subject to your responsibility and the governing law of the jurisdiction you are located. wako cannot be held responsible",
+      "uninstall-confirm": {
+        "header": "Uninstall this add-on",
+        "message": "Are you sure?"
+      },
+      "install-confirm": {
+        "header": "Install this add-on",
+        "message": "Are you sure?"
       }
+    },
+    "addon-settings": {
+      "title": "Add-on Settings"
     }
   },
   "modals": {
@@ -262,22 +253,9 @@
     "sign-in": {
       "button": "Connectez-vous avec Trakt"
     },
-    "open-button": {
-      "buttonSearch": "Rechercher des sources",
-      "buttonOpen": "Ouvrir",
-      "searchingSources": "Recherche de sources",
-      "noSourcesFound": "Aucune source trouvée"
-    },
     "misc": {
       "aired": "Diffusé le",
       "airs": "Sort le"
-    },
-    "sources": {
-      "buttonSearch": "Search sources",
-      "segments": {
-        "cached": "Cached Seulement",
-        "all": "Toutes"
-      }
     }
   },
   "toasts": {
@@ -305,7 +283,6 @@
       "markAsWatched": "{{showTitle}} {{episodeCode}} a été marqué comme vu",
       "markAsUnwatched": "{{showTitle}} {{episodeCode}} a été marqué comme non vu"
     },
-    "elementumNotInstalled": "Elementum Add-on doit être installé pour continuer",
     "kodi-remote-control": {
       "warningWebsocket": "Attention - vous n'êtes pas connecté à kodi via webocket"
     },
@@ -321,36 +298,10 @@
     },
     "kodi": {
       "noHost": "Aucun hôte définit pour kodi",
-      "hostUnreachable": "Aïe, votre hôte kodi {{hostName}} est injoignable",
-      "startOpening": "Lancement de {{title}} sur {{hostName}}",
-      "open": "Lecture sur {{hostName}} via {{pluginName}}"
+      "hostUnreachable": "Aïe, votre hôte kodi {{hostName}} est injoignable"
     },
-    "providersUpdated": "Les Providers ont été mis à jour",
-    "kodi-open-button": {
-      "plugingUrlAdded": "Les Plugins ont été ajoutés avec succès",
-      "plugingUrlFailedToAdd": "Les Plugins n'ont pas été ajoutés, veuillez vérifier l'URL donnée"
-    },
-    "providers": {
-      "providerUrlAdded": "Les Providers ont été ajoutés avec succès",
-      "providerUrlFailedToAdd": "Les Providers n'ont pas été ajoutés, veuillez vérifier l'URL donnée"
-    },
-    "cloud-account": {
-      "needToAddProviders": "Vous devez ajouter des providers pour profiter du service des débrideurs"
-    },
-    "premiumize": {
-      "invalidApiKey": "La clé API n'est pas valide"
-    },
-    "real-debrid": {
-      "failedToLogin": "Impossible de se connecter"
-    },
-    "copyToClipboard": "{{element}} a été copié dans le presse papier",
-    "open-source": {
-      "cannotRetrieveUrl": "Cette source est illisible, ne peut pas récupérer son URL",
-      "addedToPM": "La source a été ajoutée à votre compte PM",
-      "failedToAddToPM": "Échec de l'ajout de la source à votre compte PM : {{error}}",
-      "addedToRD": "La source a été ajoutée à votre compte RD",
-      "failedToAddToRD": "Échec de l'ajout de la source à votre compte RD : {{error}}",
-      "sourceNotCached": "Échec de la récupération de l'URL de la video"
+    "addons": {
+      "updated": "These add-ons have been updated:<br>{{updatedAddons}}<br><br>wako needs to be restarted."
     }
   },
   "alerts": {
@@ -362,38 +313,6 @@
     "movie": {
       "random": {
         "header": "Trouvez un film aléatoire pour les genres :"
-      }
-    },
-    "cloud-account": {
-      "real-debrid": {
-        "authHeader": "Real Debrid Auth",
-        "enterCode": "Ouvrez ce lien : https://real-debrid.com/device<br><br><br>Entrer ce code :",
-        "openUrlButton": "Ouvrir le lien"
-      }
-    }
-  },
-  "actionSheets": {
-    "open-button": {
-      "openTitle": "Ouvrir...",
-      "options": {
-        "cached": "l'url de la video",
-        "kodi": "avec kodi"
-      }
-    },
-    "open-cached-url": {
-      "openTitle": "Quoi faire ?",
-      "options": {
-        "kodi": "Ouvrir avec Kodi",
-        "browser": "Ouvrir dans votre navigateur",
-        "copy": "Copier l'URL de la vidéo",
-        "vlc": "Ouvert avec VLC",
-        "downloadVlc": "Télécharger avec VLC",
-        "openWithElementum": "Ouvrir avec Elementum Kodi addon",
-        "addToPM": "Ajouter à PM",
-        "addToRD": "Ajouter à RD"
-      },
-      "selectLink": {
-        "openTitle": "Cette source a plusieurs liens, lequel voulez-vous ouvrir ?"
       }
     }
   },

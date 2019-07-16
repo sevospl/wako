@@ -109,8 +109,7 @@
           "item": "Contribute"
         },
         "kodi": {
-          "item": "Configure Hosts",
-          "plugins": "Configure Open Button"
+          "item": "Configure Hosts"
         },
         "addons": {
           "header": "Add-ons",
@@ -254,22 +253,9 @@
     "sign-in": {
       "button": "Sign in or Sign up with Trakt"
     },
-    "open-button": {
-      "buttonSearch": "Search sources",
-      "buttonOpen": "Open",
-      "searchingSources": "Searching sources",
-      "noSourcesFound": "No source found"
-    },
     "misc": {
       "aired": "Aired",
       "airs": "Airs"
-    },
-    "sources": {
-      "buttonSearch": "Search sources",
-      "segments": {
-        "cached": "Cached only",
-        "all": "All"
-      }
     }
   },
   "toasts": {
@@ -297,7 +283,6 @@
       "markAsWatched": "Marked {{showTitle}} {{episodeCode}} as watched",
       "markAsUnwatched": "Marked {{showTitle}} {{episodeCode}} as unwatched"
     },
-    "elementumNotInstalled": "Elementum Add-on needs to be installed to continue",
     "kodi-remote-control": {
       "warningWebsocket": "Warning - you are not connected to kodi throught websocket service"
     },
@@ -313,36 +298,10 @@
     },
     "kodi": {
       "noHost": "No host set for kodi",
-      "hostUnreachable": "Ouch, your kodi host {{hostName}} is unreachable",
-      "startOpening": "Opening {{title}} on {{hostName}}",
-      "open": "Open on {{hostName}} using {{pluginName}}"
+      "hostUnreachable": "Ouch, your kodi host {{hostName}} is unreachable"
     },
-    "providersUpdated": "Providers have been updated",
-    "kodi-open-button": {
-      "plugingUrlAdded": "Plugins added",
-      "plugingUrlFailedToAdd": "Failed to add plugins, please check the given URL"
-    },
-    "providers": {
-      "providerUrlAdded": "Providers added",
-      "providerUrlFailedToAdd": "Failed to add Providers, please check the given URL"
-    },
-    "cloud-account": {
-      "needToAddProviders": "You need to add some providers to enjoy debrid services."
-    },
-    "premiumize": {
-      "invalidApiKey": "The API Key is not valid"
-    },
-    "real-debrid": {
-      "failedToLogin": "Failed to login"
-    },
-    "copyToClipboard": "{{element}} has been copied to your clipboard",
-    "open-source": {
-      "cannotRetrieveUrl": "This source is unplayable, cannot retrieve its URL",
-      "addedToPM": "Source has been added to you PM account",
-      "failedToAddToPM": "Failed to add the source to your PM account: {{error}}",
-      "addedToRD": "Source has been added to you RD account",
-      "failedToAddToRD": "Failed to add the source to your RD account: {{error}}",
-      "sourceNotCached": "Failed to retrieved the video URL"
+    "addons": {
+      "updated": "These add-ons have been updated:<br>{{updatedAddons}}<br><br>wako needs to be restarted."
     }
   },
   "alerts": {
@@ -354,38 +313,6 @@
     "movie": {
       "random": {
         "header": "Get a random movie for genres:"
-      }
-    },
-    "cloud-account": {
-      "real-debrid": {
-        "authHeader": "Real Debrid Auth",
-        "enterCode": "Open this link: https://real-debrid.com/device<br><br>Enter this code:",
-        "openUrlButton": "Open the link"
-      }
-    }
-  },
-  "actionSheets": {
-    "open-button": {
-      "openTitle": "Open...",
-      "options": {
-        "cached": "the source URL",
-        "kodi": "with a kodi add-on"
-      }
-    },
-    "open-source": {
-      "openTitle": "What to do?",
-      "options": {
-        "kodi": "Open with Kodi",
-        "browser": "Open in your browser",
-        "copy": "Copy URL",
-        "vlc": "Open with VLC",
-        "downloadVlc": "Download with VLC",
-        "openWithElementum": "Open with Elementum Kodi add-on",
-        "addToPM": "Add to PM",
-        "addToRD": "Add to RD"
-      },
-      "selectLink": {
-        "openTitle": "This source has multiple links, which one you want to open?"
       }
     }
   },
