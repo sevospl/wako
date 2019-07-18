@@ -182,7 +182,8 @@
       }
     },
     "addon": {
-      "title": "Add-on Detail",
+      "title": "Add-on {{addonName}}",
+      "detail": "Add-on Detail",
       "settings": "Add-on Settings",
       "install": "Install",
       "uninstall": "Uninstall",
@@ -198,6 +199,9 @@
     },
     "addon-settings": {
       "title": "Add-on Settings"
+    },
+    "addon-detail": {
+      "title": "Add-on Detail"
     }
   },
   "modals": {
