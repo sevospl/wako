@@ -146,7 +146,8 @@
       "skip": "Passer",
       "cardContent": "Les hôtes Kodi sont maintenant recherchés sur votre réseau.<br />Sélectionnez un hôte dans la liste pour l'ajouter ou appuyez sur le bouton \"PASSER\" pour l'ajouter manuellement.",
       "detectedHosts": "Hôtes détectés",
-      "detectHostHelper": "Aucun hôte n'a pas encore été trouvé (cela peut prendre quelques secondes). N'oubliez pas de démarrer Kodi<br><em>>La détection automatique fonctionne en utilisant Zeroconf. S'il ne détecte pas votre Kodi, essayez d'activer Zeroconf dans Kodi en allant dans <b>Settings > Services > General and enable \"Announce services to other systems\"</b></em>."
+      "detectHostHelper": "Aucun hôte n'a pas encore été trouvé (cela peut prendre quelques secondes). N'oubliez pas de démarrer Kodi<br><em>>La détection automatique fonctionne en utilisant Zeroconf. S'il ne détecte pas votre Kodi, essayez d'activer Zeroconf dans Kodi en allant dans <b>Settings > Services > General and enable \"Announce services to other systems\"</b></em>.",
+      "troubleShooting": "Si vous avez des problèmes pour connecter wako à kodi, merci de lire la documentation <b>ici</b>"
     },
     "kodi-remote-list": {
       "title": "Kodi Hôtes",
@@ -180,8 +181,10 @@
       }
     },
     "addon": {
-      "title": "Add-on Detail",
+      "title": "Add-on {{addonName}}",
+      "detail": "Add-on Detail",
       "settings": "Add-on Settings",
+      "changeLogs": "Change logs",
       "install": "Install",
       "uninstall": "Uninstall",
       "thirdParty": "This add-on has not been created by wako. Using third party add-ons will always be subject to your responsibility and the governing law of the jurisdiction you are located. wako cannot be held responsible",
@@ -196,6 +199,9 @@
     },
     "addon-settings": {
       "title": "Add-on Settings"
+    },
+    "addon-detail": {
+      "title": "Add-on Detail"
     }
   },
   "modals": {
