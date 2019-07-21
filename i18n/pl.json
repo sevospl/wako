@@ -52,8 +52,7 @@
           "imdbRating": "Ocena IMDb:",
           "viewOnIMDb": "Zobacz na IMDb",
           "overview": "Opis",
-          "related": "Więcej podobnych",
-          "sources": "Źródła"
+          "related": "Więcej podobnych"
         },
         "search-list": {
           "explore": "Odkryj",
@@ -70,8 +69,7 @@
           "explore": "Odkryj",
           "hideWatched": "Ukryj obejrzane",
           "pickList": "Wybierz listę",
-          "filters": "Filtry",
-          "manualSearch": "Przeszukaj źródła ręcznie"
+          "filters": "Filtry"
         }
       }
     },
@@ -93,9 +91,6 @@
       "search-list": {
         "search": "Szukaj serialu",
         "myTvShows": "Moje seriale"
-      },
-      "season-detail": {
-        "seasons": "Sezony"
       },
       "episode-detail": {
         "viewShow": "Zobacz serial"
@@ -237,15 +232,7 @@
       "likes": "polubiane",
       "by": "przez"
     },
-    "search-manual": {
-      "search": "Wyszukaj źródło",
-      "category": "Kategorie",
-      "categoryOptions": {
-        "movies": "Filmy",
-        "tv": "Seriale",
-        "anime": "Anime"
-      }
-    }
+
   },
   "shared": {
     "noResult": "Brak wyników",
@@ -296,10 +283,7 @@
     "settings": {
       "cacheCleared": "Pamięć podręczna wyczyszczona"
     },
-    "kodi": {
-      "noHost": "Brak hostów z Kodi",
-      "hostUnreachable": "Ałć... twój host z Kodi {{hostNmae}} jest niedostępny"
-    },
+
     "addons": {
       "updated": "These add-ons have been updated:<br>{{updatedAddons}}<br><br>wako needs to be restarted."
     }

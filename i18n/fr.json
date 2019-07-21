@@ -52,8 +52,7 @@
           "imdbRating": "Note IMDb :",
           "viewOnIMDb": "Voir sur IMDb",
           "overview": "Résumé",
-          "related": "Similaire",
-          "sources": "Sources"
+          "related": "Similaire"
         },
         "search-list": {
           "explore": "Explorer",
@@ -70,8 +69,7 @@
           "explore": "Explorer",
           "hideWatched": "Masquer les vus",
           "pickList": "Choisir une liste",
-          "filters": "Filtres",
-          "manualSearch": "Chercher une source"
+          "filters": "Filtres"
         }
       }
     },
@@ -236,15 +234,6 @@
       "popularLists": "Listes Populaires",
       "likes": "likes",
       "by": "par"
-    },
-    "search-manual": {
-      "search": "Rechercher une source",
-      "category": "Catégorie",
-      "categoryOptions": {
-        "movies": "Film",
-        "tv": "Série",
-        "anime": "Anime"
-      }
     }
   },
   "shared": {
@@ -295,10 +284,6 @@
     },
     "settings": {
       "cacheCleared": "Cache Supprimé"
-    },
-    "kodi": {
-      "noHost": "Aucun hôte définit pour kodi",
-      "hostUnreachable": "Aïe, votre hôte kodi {{hostName}} est injoignable"
     },
     "addons": {
       "updated": "These add-ons have been updated:<br>{{updatedAddons}}<br><br>wako needs to be restarted."

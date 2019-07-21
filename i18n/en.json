@@ -52,8 +52,7 @@
           "imdbRating": "IMDb Rating:",
           "viewOnIMDb": "View on IMDb",
           "overview": "Overview",
-          "related": "More like this",
-          "sources": "Sources"
+          "related": "More like this"
         },
         "search-list": {
           "explore": "Explore",
@@ -70,8 +69,7 @@
           "explore": "Explore",
           "hideWatched": "Hide Watched",
           "pickList": "Pick a list",
-          "filters": "Filters",
-          "manualSearch": "Search Source Manually"
+          "filters": "Filters"
         }
       }
     },
@@ -148,7 +146,8 @@
       "skip": "Skip",
       "cardContent": "Kodi hosts are now being searched on your network.<br />Select one from the list to add it or press the \"SKIP\" button to add it manually.",
       "detectedHosts": "Detected Hosts",
-      "detectHostHelper": "Not host found yet (could take some seconds). Don't forget to start Kodi<br><em>The Automatic detection works by using Zeroconf. If it’s not detecting your Kodi, then try enabling Zeroconf in Kodi by going to <b>Settings > Services > General and enable \"Announce services to other systems\"</b></em>"
+      "detectHostHelper": "Not host found yet (could take some seconds). Don't forget to start Kodi<br><em>The Automatic detection works by using Zeroconf. If it’s not detecting your Kodi, then try enabling Zeroconf in Kodi by going to <b>Settings > Services > General and enable \"Announce services to other systems\"</b></em>",
+      "troubleShooting": "If you have any isssue connecting wako to kodi, please read the documentation <b>here</b>"
     },
     "kodi-remote-list": {
       "title": "Kodi Hosts",
@@ -185,6 +184,7 @@
       "title": "Add-on {{addonName}}",
       "detail": "Add-on Detail",
       "settings": "Add-on Settings",
+      "changeLogs": "Change logs",
       "install": "Install",
       "uninstall": "Uninstall",
       "thirdParty": "This add-on has not been created by wako. Using third party add-ons will always be subject to your responsibility and the governing law of the jurisdiction you are located. wako cannot be held responsible",
@@ -240,15 +240,6 @@
       "popularLists": "Popular Lists",
       "likes": "likes",
       "by": "by"
-    },
-    "search-manual": {
-      "search": "Search a Source",
-      "category": "Category",
-      "categoryOptions": {
-        "movies": "Movie",
-        "tv": "TV Show",
-        "anime": "Anime"
-      }
     }
   },
   "shared": {
@@ -299,10 +290,6 @@
     },
     "settings": {
       "cacheCleared": "Cache cleared"
-    },
-    "kodi": {
-      "noHost": "No host set for kodi",
-      "hostUnreachable": "Ouch, your kodi host {{hostName}} is unreachable"
     },
     "addons": {
       "updated": "These add-ons have been updated:<br>{{updatedAddons}}<br><br>wako needs to be restarted."
