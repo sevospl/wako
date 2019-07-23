@@ -123,7 +123,9 @@
           "totalWatchedEpisodes": "Nombre d'épisodes regardés",
           "apiStatus": "Statut de l'API Trakt",
           "logout": "Déconnexion",
-          "signIn": "Connectez-vous ou Inscrivez-vous à Trakt"
+          "signIn": "Connectez-vous ou Inscrivez-vous à Trakt",
+          "markMovieAsWatchedAuto": "Marquer les films comme vu automatiquement",
+          "markEpisodeAsWatchedAuto": "Marquer les épisodes comme vu automatiquement"
         },
         "application": {
           "header": "Application",

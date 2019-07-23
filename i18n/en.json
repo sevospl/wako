@@ -123,7 +123,9 @@
           "totalWatchedEpisodes": "Total episodes watched",
           "apiStatus": "Trakt API Status",
           "logout": "Logout",
-          "signIn": "Sign in or Sign up with Trakt"
+          "signIn": "Sign in or Sign up with Trakt",
+          "markMovieAsWatchedAuto": "Mark movies as watched automatically",
+          "markEpisodeAsWatchedAuto": "Mark episodes as watched automatically"
         },
         "application": {
           "header": "Application",
