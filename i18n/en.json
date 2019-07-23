@@ -307,6 +307,10 @@
       "random": {
         "header": "Get a random movie for genres:"
       }
+    },
+    "addons": {
+      "customManifestUrl": "Custom add-on URL",
+      "enterManifestUrl": "Enter the manifest URL"
     }
   },
   "notifications": {

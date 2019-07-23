@@ -307,6 +307,10 @@
       "random": {
         "header": "Trouvez un film aléatoire pour les genres :"
       }
+    },
+    "addons": {
+      "customManifestUrl": "Ajouter un add-on personnel",
+      "enterManifestUrl": "Entrer l'url du manifest"
     }
   },
   "notifications": {
