@@ -125,7 +125,8 @@
           "logout": "Déconnexion",
           "signIn": "Connectez-vous ou Inscrivez-vous à Trakt",
           "markMovieAsWatchedAuto": "Marquer les films comme vu automatiquement",
-          "markEpisodeAsWatchedAuto": "Marquer les épisodes comme vu automatiquement"
+          "markEpisodeAsWatchedAuto": "Marquer les épisodes comme vu automatiquement",
+          "markAsWatchedAutoProgress": "Pourcentage à voir pour marquer la vidéo comme vu"
         },
         "application": {
           "header": "Application",

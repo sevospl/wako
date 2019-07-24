@@ -125,7 +125,8 @@
           "logout": "Logout",
           "signIn": "Sign in or Sign up with Trakt",
           "markMovieAsWatchedAuto": "Mark movies as watched automatically",
-          "markEpisodeAsWatchedAuto": "Mark episodes as watched automatically"
+          "markEpisodeAsWatchedAuto": "Mark episodes as watched automatically",
+          "markAsWatchedAutoProgress": "Percentage to watch to mark the video as watched"
         },
         "application": {
           "header": "Application",
