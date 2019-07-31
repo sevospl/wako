@@ -231,8 +231,7 @@
       "popularLists": "Popularne listy",
       "likes": "polubiane",
       "by": "przez"
-    },
-
+    }
   },
   "shared": {
     "noResult": "Brak wyników",
@@ -283,7 +282,6 @@
     "settings": {
       "cacheCleared": "Pamięć podręczna wyczyszczona"
     },
-
     "addons": {
       "updated": "These add-ons have been updated:<br>{{updatedAddons}}<br><br>wako needs to be restarted."
     }
