@@ -56,6 +56,7 @@
         },
         "search-list": {
           "explore": "Explore",
+          "list": "List",
           "toWatch": "To watch",
           "watched": "Watched",
           "by": "by",
@@ -63,7 +64,10 @@
           "trending": "Trending",
           "popular": "Popular",
           "collection": "Collection",
-          "recommendations": "Recommendations"
+          "recommendations": "Recommendations",
+          "watch-list": "Watch list",
+          "history": "History",
+          "up-next": "Up Next To Watch"
         },
         "pop-over": {
           "explore": "Explore",
@@ -229,9 +233,11 @@
     },
     "list-picker": {
       "title": "Pick a list",
+      "search": "Search a list",
       "sort": {
-        "label": "Media will be sorted by",
+        "label": "Sort by",
         "options": {
+          "default": "Default",
           "rank": "Rank",
           "recentlyAdded": "Recently Added",
           "releasedDate": "Release Date"
@@ -264,13 +270,18 @@
       "removedFromWatchlist": "Removed {{movieTitle}} from your Watch List",
       "addedToCollection": "Added {{movieTitle}} to your Collection",
       "removedFromCollection": "Removed {{movieTitle}} from your Collection",
+      "addedToUserList": "Added {{movieTitle}} to your list",
+      "removedFromUserList": "Removed {{movieTitle}} from your list",
       "noRandomMovieFound": "No movie found for genres: {{genreList}}",
       "notFoundOnTrakt": "Movie not found on trakt"
     },
     "show": {
+      "addedToWatchlist": "Added {{showTitle}} to your Watch List",
       "removedFromWatchlist": "Removed {{showTitle}} from your Watch List",
       "addedToCollection": "Added {{showTitle}} to your Collection",
       "removedFromCollection": "Removed {{showTitle}} from your Collection",
+      "addedToUserList": "Added {{showTitle}} to your list",
+      "removedFromUserList": "Removed {{showTitle}} from your list",
       "notFoundOnTrakt": "Show not found on trakt"
     },
     "season": {
@@ -318,5 +329,13 @@
     "shows": {
       "newEpisode": "New Episode: {{showTitle}} {{episodeCode}}"
     }
+  },
+  "actionSheets": {
+    "addToWatchList": "Add to your Watch List",
+    "removeFromWatchList": "Remove from your Watch List",
+    "addToCollection": "Add to your Collection",
+    "removeFromCollection": "Remove from your Collection",
+    "addToList": "Add to {{listName}}",
+    "removeFromList": "Remove from {{listName}}"
   }
 }

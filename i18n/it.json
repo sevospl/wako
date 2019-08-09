@@ -63,7 +63,10 @@
           "trending": "Di tendenza",
           "popular": "Popolari",
           "collection": "Raccolta",
-          "recommendations": "Consigliati"
+          "recommendations": "Consigliati",
+          "watch-list": "Watch list",
+          "history": "Historique",
+          "up-next": "Prossimo Da Vedere"
         },
         "pop-over": {
           "explore": "Esplora",

@@ -56,6 +56,7 @@
         },
         "search-list": {
           "explore": "Explorer",
+          "list": "Liste",
           "toWatch": "À Voir",
           "watched": "Vus",
           "by": "par",
@@ -63,7 +64,10 @@
           "trending": "Tendance",
           "popular": "Populaire",
           "collection": "Collection",
-          "recommendations": "Recommendations"
+          "recommendations": "Recommendations",
+          "watch-list": "Watch List",
+          "history": "Historique",
+          "up-next": "À Regarder"
         },
         "pop-over": {
           "explore": "Explorer",
@@ -229,9 +233,11 @@
     },
     "list-picker": {
       "title": "Choisissez une liste",
+      "search": "Search a list",
       "sort": {
         "label": "Trier les médias par",
         "options": {
+          "default": "Default",
           "rank": "Rang",
           "recentlyAdded": "Récemment ajouté",
           "releasedDate": "Date de sortie"
@@ -258,19 +264,24 @@
   },
   "toasts": {
     "movie": {
-      "markAsWatched": "Marked {{movieTitle}} a été marqué comme vu",
-      "markAsUnwatched": "Marked {{movieTitle}} a été marqué comme non vu",
+      "markAsWatched": "{{movieTitle}} a été marqué comme vu",
+      "markAsUnwatched": "{{movieTitle}} a été marqué comme non vu",
       "addedToWatchlist": "{{movieTitle}} a été ajouté à votre Watch List",
       "removedFromWatchlist": "{{movieTitle}} a été retiré de votre Watch List",
       "addedToCollection": "{{movieTitle}} a été ajouté de votre Collection",
       "removedFromCollection": "{{movieTitle}} a été retiré de votre Collection",
+      "addedToUserList": "{{movieTitle}} a été ajouté à la liste",
+      "removedFromUserList": "{movieTitle}} a été retiré de la liste",
       "noRandomMovieFound": "Aucun film trouvé pour les genres : {{genreList}}",
       "notFoundOnTrakt": "Film non trouvé sur trakt"
     },
     "show": {
+      "addedToWatchlist": "{{showTitle}} a été ajouté à votre Watch Listt",
       "removedFromWatchlist": "{{showTitle}} a été retiré de votre Watch List",
       "addedToCollection": "{{showTitle}} a été ajouté de votre  Collection",
       "removedFromCollection": "{{showTitle}} a été retiré de votre  Collection",
+      "addedToUserList": "{{showTitle}} a été ajouté à la liste",
+      "removedFromUserList": "{{showTitle}} a été retiré de la liste",
       "notFoundOnTrakt": "Série non trouvée sur trakt"
     },
     "season": {
@@ -318,5 +329,13 @@
     "shows": {
       "newEpisode": "Nouvel Episode : {{showTitle}} {{episodeCode}}"
     }
+  },
+  "actionSheets": {
+    "addToWatchList": "Ajouter à Watch List",
+    "removeFromWatchList": "Supprimer de votre Watch List",
+    "addToCollection": "Ajouter à votre Collection",
+    "removeFromCollection": "Supprimer de votre Collection",
+    "addToList": "Ajouter à {{listName}}",
+    "removeFromList": "Supprimer de {{listName}}"
   }
 }
