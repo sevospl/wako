@@ -253,6 +253,7 @@
   },
   "shared": {
     "noResult": "No result",
+    "filtersApplied": "Filters have been applied",
     "cancel": "Cancel",
     "sign-in": {
       "button": "Sign in or Sign up with Trakt"
