@@ -214,7 +214,8 @@
     "app-contribution": {
       "title": "Contributo",
       "text": "wako è gratuito e non contiene pubblicità. <br />Ci vuole molto lavoro per rendere l'app sempre migliore. <br />Se ti piace davvero wako, puoi contribuire iscrivendoti al seguente prodotto <br /><br />Grazie.",
-      "iosTextSubscriptionByProduct": "Un acquistao di {{ productPrice }}/al mese verrà applicato al tuo account iTunes alla conferma.",
+      "iosTextSubscriptionMonthlyByProduct": "Un acquistao di {{ productPrice }}/al mese verrà applicato al tuo account iTunes alla conferma.",
+      "iosTextSubscriptionYearlyByProduct": "Un acquistao di {{ productPrice }}/all'anno verrà applicato al tuo account iTunes alla conferma.",
       "iosTextSubscriptionGeneral": "Gli abbonamenti si rinnoveranno automaticamente a meno che non vengano annullati entro 24 ore prima della fine del periodo corrente. Puoi annullare in qualsiasi momento dalle impostazioni del tuo account iTunes. Qualsiasi parte inutilizzata di una prova gratuita verrà persa se acquisti un abbonamento. Per ulteriori informazioni, consultare i nostri Termini & Condizioni e Informativa sulla Privacy.",
       "subscriptionHeader": "Abbonamenti con rinnovo automatico",
       "consumableHeader": "Acquista una volta"
