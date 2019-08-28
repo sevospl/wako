@@ -252,6 +252,15 @@
       "by": "by"
     }
   },
+  "pop-over" : {
+    "kodi-subtitles": {
+      "header": "Subtitles",
+      "enable": "Enable Subtitles",
+      "select": "Subtitle",
+      "download": "Download",
+      "offset": "Offset"
+    }
+  },
   "shared": {
     "noResult": "No result",
     "filtersApplied": "Filters have been applied",
