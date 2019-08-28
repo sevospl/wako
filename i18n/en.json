@@ -271,7 +271,8 @@
     "misc": {
       "aired": "Aired",
       "airs": "Airs"
-    }
+    },
+    "pasteMediaTitle": "Paste Video Title"
   },
   "toasts": {
     "movie": {
