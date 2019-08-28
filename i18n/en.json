@@ -258,7 +258,8 @@
       "enable": "Enable Subtitles",
       "select": "Subtitle",
       "download": "Download",
-      "offset": "Offset"
+      "offset": "Offset",
+      "close": "Close"
     }
   },
   "shared": {
